@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "bookNow": "Rezerviraj",
+    "itinerary": "Potek dneva",
+    "pricing": "Cene"
+  },
+  "hero": {
+    "tagline": "En dan. Tri svetovi.",
+    "subtitle": "Od Ljubljane do smaragdne doline Soče in Jadranskega morja, vse v enem nepozabnem dnevu.",
+    "cta": "Rezerviraj svojo pustolovščino",
+    "badge": "Majhna skupina · Max 4 osebe"
+  },
+  "tour": {
+    "title": "Izlet",
+    "description": "Doživite najlepše naravne lepote Slovenije v enem popolno urejenem dnevu. Vaš lokalni vodič vas popelje skozi skrite soteske, ob najlepši reki na svetu in do bleščečega Jadrana.",
+    "highlights": {
+      "title": "Zakaj ta izlet",
+      "h1": "Izkušen lokalni vodič",
+      "h1desc": "Vaš vodič govori slovensko in angleško ter pozna vsak skrit biser poti.",
+      "h2": "Zasebna majhna skupina",
+      "h2desc": "Največ 4 osebe zagotavljajo osebno in prilagodljivo izkušnjo.",
+      "h3": "Storitev od vrat do vrat",
+      "h3desc": "Prevzem in odlog na vaši točki srečanja v Ljubljani. Brez logističnega stresa.",
+      "h4": "Tri regije v enem dnevu",
+      "h4desc": "Gore, rečne doline in Jadransko morje, vsa lepota Slovenije v 10 urah."
+    }
+  },
+  "itinerary": {
+    "title": "Vaš dan",
+    "steps": [
+      {
+        "time": "07:00",
+        "name": "Prevzem v Ljubljani",
+        "duration": "1h 30m vožnja",
+        "desc": "Srečamo se v Ljubljani in začnemo dan z udobno vožnjo proti goram."
+      },
+      {
+        "time": "08:30",
+        "name": "Tolminska korita",
+        "duration": "1h 15m",
+        "desc": "Raziščite eno od najlepših naravnih znamenitosti Slovenije, dramatično sotesko s kristalno čisto vodo."
+      },
+      {
+        "time": "09:45",
+        "name": "Razgledi Soške doline",
+        "duration": "1h 30m",
+        "desc": "Ustavimo se na več razglednih točkah, da vidite slavno smaragdno reko Sočo in posnamete fotografije."
+      },
+      {
+        "time": "11:15",
+        "name": "Čas za sprostitev",
+        "duration": "1h",
+        "desc": "Kratek premor za uživanje v naravi, fotografiranje ali preprosto sprostitev ob reki."
+      },
+      {
+        "time": "12:15",
+        "name": "Lokalni kosilo (neobvezno)",
+        "duration": "1h",
+        "desc": "Neobvezen postanek v tradicionalni slovenski restavraciji, kjer gostje naročajo samostojno."
+      },
+      {
+        "time": "13:15",
+        "name": "Vožnja do obale",
+        "duration": "1h 30m",
+        "desc": "Panoramska vožnja proti Jadranskemu morju skozi kraške pokrajine."
+      },
+      {
+        "time": "14:45",
+        "name": "Koper ali Trst",
+        "duration": "1h",
+        "desc": "Sprehod po čarobnih obalnih ulicah, razgled na morje in kava ali gelato ob vodi."
+      },
+      {
+        "time": "15:45",
+        "name": "Vrnitev v Ljubljano",
+        "duration": "1h 30m",
+        "desc": "Sprostite se in uživajte v panoramski vožnji nazaj po polnem in nepozabnem dnevu."
+      },
+      {
+        "time": "17:15",
+        "name": "Odlog v Ljubljani",
+        "duration": "15m",
+        "desc": "Vrnemo se na izhodiščno točko. Vaša pustolovščina je zaključena."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Preproste cene",
+    "perPerson": "na osebo",
+    "groupSize": "Skupina 2–4 oseb",
+    "included": "Kaj je vključeno",
+    "includedItems": [
+      "Zasebni vodeni izlet",
+      "Vso prevoz",
+      "Prevzem in odlog v Ljubljani",
+      "Lokalno znanje in komentar"
+    ],
+    "extras": "Neobvezni dodatki",
+    "snack": "Domač prigrizek",
+    "snackDesc": "Izberite tortilije, sendviče ali jogurtove sklede",
+    "snackPrice": "+€10 na osebo",
+    "dogKennel": "Pasji boks",
+    "dogKennelDesc": "Vzemite s seboj vašega kosmatega prijatelja",
+    "dogKennelPrice": "Brezplačno",
+    "note": "Vodič govori slovensko in angleško. Kosilo ni vključeno, obstaja neobvezen postanek v tradicionalni restavraciji."
+  },
+  "booking": {
+    "title": "Rezervirajte izlet",
+    "selectDate": "Izberite datum",
+    "groupSize": "Velikost skupine",
+    "people": "osebe",
+    "extras": "Dodatki",
+    "snackTitle": "Domač prigrizek (+€10/osebo)",
+    "snackNone": "Brez prigrizka",
+    "snackTortillas": "Tortilije",
+    "snackSandwiches": "Sendviči",
+    "snackYogurt": "Jogurtove sklede",
+    "dogTitle": "Pasji boks (brezplačno)",
+    "dogLabel": "Pripeljem psa",
+    "yourDetails": "Vaši podatki",
+    "name": "Ime in priimek",
+    "email": "E-poštni naslov",
+    "phone": "Telefonska številka",
+    "summary": "Povzetek naročila",
+    "base": "Izlet",
+    "total": "Skupaj",
+    "proceedPayment": "Nadaljuj na plačilo",
+    "loading": "Nalaganje razpoložljivih datumov...",
+    "noAvailability": "Trenutno ni razpoložljivih datumov. Preverite kmalu.",
+    "minPeople": "Potrebni so najmanj 2 osebi.",
+    "privacyNote": "Vaši podatki se uporabljajo samo za to rezervacijo.",
+    "advanceNotice": "Rezervacije morajo biti opravljene vsaj 2 dni vnaprej.",
+    "vegetarianLabel": "Naredite vegetarijansko",
+    "notesTitle": "Posebne želje (izbirno)",
+    "notesPlaceholder": "Alergije, prehranske preference ali kar koli drugega, kar bi morali vedeti.",
+    "musicTitle": "Izberi vzdušje",
+    "musicDesc": "Kakšno glasbo bi radi poslušali?",
+    "musicChill": "Sproščujoče in akustično",
+    "musicUpbeat": "Živahno in zabavno",
+    "musicSlovenian": "Slovenske klasike",
+    "musicSurprise": "Presenetite me",
+    "musicSilence": "Brez glasbe, prosim"
+  },
+  "success": {
+    "title": "Rezervacija potrjena!",
+    "subtitle": "Potrditveno sporočilo je bilo poslano na vaš e-poštni naslov. Veselimo se, da vam pokažemo Slovenijo.",
+    "details": "Podrobnosti rezervacije",
+    "date": "Datum",
+    "people": "Osebe",
+    "extras": "Dodatki",
+    "total": "Skupaj plačano",
+    "backHome": "Nazaj na domačo stran",
+    "snack": "Domač prigrizek",
+    "dog": "Pasji boks"
+  },
+  "chat": {
+    "title": "Vprašajte nas",
+    "placeholder": "Kaj bi radi vedeli?",
+    "send": "Pošlji",
+    "greeting": "Živjo! Tu sem, da odgovorim na vaša vprašanja o enodnevnem izletu Tilen Tours. Kaj vas zanima?"
+  },
+  "footer": {
+    "tagline": "Odkrijte Slovenijo v enem dnevu.",
+    "contact": "Kontakt",
+    "language": "Jezik",
+    "rights": "Vse pravice pridržane."
+  },
+  "admin": {
+    "login": "Prijava",
+    "password": "Geslo",
+    "signIn": "Prijavi se",
+    "wrongPassword": "Napačno geslo.",
+    "dashboard": "Nadzorna plošča",
+    "dates": "Upravljanje datumov",
+    "bookings": "Rezervacije",
+    "signOut": "Odjava",
+    "totalBookings": "Skupaj rezervacij",
+    "revenue": "Skupni prihodek",
+    "upcoming": "Prihajajoče",
+    "blockDate": "Kliknite datum za blokiranje ali odblokiranje",
+    "blocked": "Blokirano",
+    "available": "Na voljo",
+    "booked": "Ima rezervacijo",
+    "noBookings": "Še ni rezervacij.",
+    "bookingDate": "Datum",
+    "bookingPeople": "Osebe",
+    "bookingCustomer": "Stranka",
+    "bookingExtras": "Dodatki",
+    "bookingTotal": "Skupaj",
+    "bookingStatus": "Status",
+    "statusPaid": "Plačano",
+    "statusPending": "V čakanju",
+    "bookingMusic": "Glasba"
+  }
+}

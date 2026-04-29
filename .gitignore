@@ -1,0 +1,28 @@
+node_modules
+.next
+out
+build
+dist
+
+.env
+.env.local
+.env*.local
+
+*.log
+npm-debug.log*
+
+prisma/*.db
+prisma/*.db-journal
+
+.vercel
+.DS_Store
+Thumbs.db
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Source media (use optimized/ subfolders only)
+public/media/*.MOV
+public/media/*.HEIC
+public/media/Parallax/*.png
+slike mene + izletov/
+*-unsplash.jpg

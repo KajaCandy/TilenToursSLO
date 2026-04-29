@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "bookNow": "Prenota",
+    "itinerary": "Itinerario",
+    "pricing": "Prezzi"
+  },
+  "hero": {
+    "tagline": "Un giorno. Tre mondi.",
+    "subtitle": "Da Lubiana alla smeraldina Valle dell'Isonzo e alla costa adriatica, tutto in un giorno indimenticabile.",
+    "cta": "Prenota la tua avventura",
+    "badge": "Piccolo gruppo · Max 4 persone"
+  },
+  "tour": {
+    "title": "Il Tour",
+    "description": "Scopri i paesaggi più spettacolari della Slovenia in una giornata perfettamente curata. La tua guida locale ti porta attraverso gole nascoste, lungo il fiume più bello del mondo e fino all'Adriatico scintillante.",
+    "highlights": {
+      "title": "Perché questo tour",
+      "h1": "Guida locale esperta",
+      "h1desc": "La tua guida parla sloveno e inglese e conosce ogni angolo nascosto del percorso.",
+      "h2": "Piccolo gruppo privato",
+      "h2desc": "Massimo 4 persone garantiscono un'esperienza personale e flessibile.",
+      "h3": "Servizio porta a porta",
+      "h3desc": "Prelevati e riaccompagnati al tuo punto d'incontro a Lubiana. Nessun stress logistico.",
+      "h4": "Tre regioni in un giorno",
+      "h4desc": "Montagne, valli fluviali e costa adriatica, tutta la bellezza della Slovenia in 10 ore."
+    }
+  },
+  "itinerary": {
+    "title": "La tua giornata",
+    "steps": [
+      {
+        "time": "07:00",
+        "name": "Raccolta a Lubiana",
+        "duration": "1h 30m di guida",
+        "desc": "Ci incontriamo a Lubiana e iniziamo la giornata con un comodo trasferimento verso le montagne."
+      },
+      {
+        "time": "08:30",
+        "name": "Tolminska Korita",
+        "duration": "1h 15m",
+        "desc": "Esplorate una delle attrazioni naturali più spettacolari della Slovenia, una gola drammatica con acque cristalline."
+      },
+      {
+        "time": "09:45",
+        "name": "Punti panoramici della Valle dell'Isonzo",
+        "duration": "1h 30m",
+        "desc": "Fermate in diversi punti panoramici per vedere il famoso fiume smeraldo Isonzo e scattare foto."
+      },
+      {
+        "time": "11:15",
+        "name": "Tempo per rilassarsi",
+        "duration": "1h",
+        "desc": "Una breve pausa per godersi la natura, scattare foto o semplicemente rilassarsi lungo il fiume."
+      },
+      {
+        "time": "12:15",
+        "name": "Sosta pranzo locale (opzionale)",
+        "duration": "1h",
+        "desc": "Sosta facoltativa in un tradizionale ristorante sloveno dove gli ospiti possono ordinare individualmente."
+      },
+      {
+        "time": "13:15",
+        "name": "Guida verso la costa",
+        "duration": "1h 30m",
+        "desc": "Panoramica guida verso la costa adriatica attraverso i paesaggi carsici."
+      },
+      {
+        "time": "14:45",
+        "name": "Capodistria o Trieste",
+        "duration": "1h",
+        "desc": "Passeggiata per le affascinanti vie costiere, viste sul mare e caffè o gelato sul lungomare."
+      },
+      {
+        "time": "15:45",
+        "name": "Ritorno a Lubiana",
+        "duration": "1h 30m",
+        "desc": "Rilassatevi e godete del panoramico viaggio di ritorno dopo una giornata piena e memorabile."
+      },
+      {
+        "time": "17:15",
+        "name": "Rientro a Lubiana",
+        "duration": "15m",
+        "desc": "Ritorniamo al punto d'incontro originale. La vostra avventura è completa."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Prezzi semplici",
+    "perPerson": "a persona",
+    "groupSize": "Gruppi da 2 a 4 persone",
+    "included": "Cosa è incluso",
+    "includedItems": [
+      "Tour guidato privato",
+      "Tutti i trasporti",
+      "Raccolta e rientro a Lubiana",
+      "Esperienza e commento locale"
+    ],
+    "extras": "Opzionali",
+    "snack": "Spuntino fatto in casa",
+    "snackDesc": "Scegli tortillas, panini o ciotole di yogurt",
+    "snackPrice": "+€10 a persona",
+    "dogKennel": "Trasportino per cani",
+    "dogKennelDesc": "Porta il tuo amico peloso",
+    "dogKennelPrice": "Gratuito",
+    "note": "La guida parla sloveno e inglese. Il pranzo non è incluso, c'è una sosta facoltativa in un ristorante tradizionale."
+  },
+  "booking": {
+    "title": "Prenota il tuo tour",
+    "selectDate": "Seleziona una data",
+    "groupSize": "Dimensione del gruppo",
+    "people": "persone",
+    "extras": "Opzionali",
+    "snackTitle": "Spuntino fatto in casa (+€10/persona)",
+    "snackNone": "Nessuno spuntino",
+    "snackTortillas": "Tortillas",
+    "snackSandwiches": "Panini",
+    "snackYogurt": "Ciotole di yogurt",
+    "dogTitle": "Trasportino per cani (gratuito)",
+    "dogLabel": "Porto il mio cane",
+    "yourDetails": "I tuoi dati",
+    "name": "Nome e cognome",
+    "email": "Indirizzo email",
+    "phone": "Numero di telefono",
+    "summary": "Riepilogo ordine",
+    "base": "Tour",
+    "total": "Totale",
+    "proceedPayment": "Procedi al pagamento",
+    "loading": "Caricamento date disponibili...",
+    "noAvailability": "Nessuna data disponibile al momento. Ricontrolla presto.",
+    "minPeople": "Minimo 2 persone richieste.",
+    "privacyNote": "I tuoi dati vengono utilizzati solo per questa prenotazione.",
+    "advanceNotice": "Le prenotazioni devono essere effettuate almeno 2 giorni in anticipo.",
+    "vegetarianLabel": "Rendilo vegetariano",
+    "notesTitle": "Richieste speciali (opzionale)",
+    "notesPlaceholder": "Allergie, preferenze alimentari o qualsiasi altra cosa che dovremmo sapere.",
+    "musicTitle": "Scegli l'atmosfera",
+    "musicDesc": "Quale dovrebbe essere la colonna sonora?",
+    "musicChill": "Rilassante e acustica",
+    "musicUpbeat": "Allegra e divertente",
+    "musicSlovenian": "Classici sloveni",
+    "musicSurprise": "Sorprendimi",
+    "musicSilence": "Niente musica, per favore"
+  },
+  "success": {
+    "title": "Sei prenotato!",
+    "subtitle": "Una conferma è stata inviata alla tua email. Non vediamo l'ora di mostrarti la Slovenia.",
+    "details": "Dettagli prenotazione",
+    "date": "Data",
+    "people": "Persone",
+    "extras": "Opzionali",
+    "total": "Totale pagato",
+    "backHome": "Torna alla home",
+    "snack": "Spuntino fatto in casa",
+    "dog": "Trasportino per cani"
+  },
+  "chat": {
+    "title": "Chiedici qualcosa",
+    "placeholder": "Cosa vorresti sapere?",
+    "send": "Invia",
+    "greeting": "Ciao! Sono qui per rispondere alle tue domande sul tour giornaliero di Tilen Tours. Cosa vorresti sapere?"
+  },
+  "footer": {
+    "tagline": "Scopri la Slovenia in un giorno.",
+    "contact": "Contatto",
+    "language": "Lingua",
+    "rights": "Tutti i diritti riservati."
+  },
+  "admin": {
+    "login": "Accesso Admin",
+    "password": "Password",
+    "signIn": "Accedi",
+    "wrongPassword": "Password errata.",
+    "dashboard": "Dashboard",
+    "dates": "Gestione date",
+    "bookings": "Prenotazioni",
+    "signOut": "Esci",
+    "totalBookings": "Prenotazioni totali",
+    "revenue": "Ricavo totale",
+    "upcoming": "In arrivo",
+    "blockDate": "Clicca una data per bloccarla o sbloccarla",
+    "blocked": "Bloccata",
+    "available": "Disponibile",
+    "booked": "Ha una prenotazione",
+    "noBookings": "Nessuna prenotazione ancora.",
+    "bookingDate": "Data",
+    "bookingPeople": "Persone",
+    "bookingCustomer": "Cliente",
+    "bookingExtras": "Opzionali",
+    "bookingTotal": "Totale",
+    "bookingStatus": "Stato",
+    "statusPaid": "Pagato",
+    "statusPending": "In attesa",
+    "bookingMusic": "Musica"
+  }
+}

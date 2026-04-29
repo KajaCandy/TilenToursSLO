@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "bookNow": "Book Now",
+    "itinerary": "Itinerary",
+    "pricing": "Pricing"
+  },
+  "hero": {
+    "tagline": "One Day. Three Worlds.",
+    "subtitle": "From Ljubljana's streets to the emerald Soča Valley and the Adriatic coast, all in a single unforgettable day.",
+    "cta": "Book Your Adventure",
+    "badge": "Small Group · Max 4 People"
+  },
+  "tour": {
+    "title": "The Tour",
+    "description": "Experience Slovenia's most breathtaking landscapes in one perfectly curated day. Your local guide takes you through hidden gorges, alongside the world's most beautiful river, and to the sparkling Adriatic, a journey that most visitors never manage to combine.",
+    "highlights": {
+      "title": "Why This Tour",
+      "h1": "Expert Local Guide",
+      "h1desc": "Your guide speaks Slovenian and English and knows every hidden gem along the route.",
+      "h2": "Private Small Group",
+      "h2desc": "Maximum 4 people means a personal, flexible experience, not a bus tour.",
+      "h3": "Door-to-Door Service",
+      "h3desc": "Picked up and dropped off at your Ljubljana meeting point. No logistics stress.",
+      "h4": "Three Regions in One Day",
+      "h4desc": "Mountains, river valleys and the Adriatic coast, Slovenia's full beauty in 10 hours."
+    }
+  },
+  "itinerary": {
+    "title": "Your Day",
+    "steps": [
+      {
+        "time": "07:00",
+        "name": "Pickup in Ljubljana",
+        "duration": "1h 30m drive",
+        "desc": "We meet in Ljubljana and start the day with a comfortable drive towards the mountains."
+      },
+      {
+        "time": "08:30",
+        "name": "Tolminska Korita",
+        "duration": "1h 15m",
+        "desc": "Explore one of Slovenia's most stunning natural attractions, a dramatic gorge with crystal-clear water and scenic viewpoints."
+      },
+      {
+        "time": "09:45",
+        "name": "Soča Valley Viewpoints",
+        "duration": "1h 30m",
+        "desc": "Stop at several viewpoints to see the famous emerald Soča River and take photos of this extraordinary landscape."
+      },
+      {
+        "time": "11:15",
+        "name": "Time to Relax",
+        "duration": "1h",
+        "desc": "A short break to enjoy nature, take photos, or simply relax by the river at your own pace."
+      },
+      {
+        "time": "12:15",
+        "name": "Local Lunch Stop",
+        "duration": "1h",
+        "desc": "Optional stop at a traditional Slovenian restaurant where guests can order food individually."
+      },
+      {
+        "time": "13:15",
+        "name": "Drive to the Coast",
+        "duration": "1h 30m",
+        "desc": "Scenic drive towards the Adriatic coast or the Italian border through beautiful Karst landscapes."
+      },
+      {
+        "time": "14:45",
+        "name": "Koper or Trieste",
+        "duration": "1h",
+        "desc": "Walk through charming coastal streets, enjoy sea views, and have coffee or gelato by the water."
+      },
+      {
+        "time": "15:45",
+        "name": "Return to Ljubljana",
+        "duration": "1h 30m",
+        "desc": "Relax and enjoy the scenic ride back after a full, memorable day."
+      },
+      {
+        "time": "17:15",
+        "name": "Drop-off in Ljubljana",
+        "duration": "15m",
+        "desc": "We return to the original meeting point. Your adventure is complete."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "perPerson": "per person",
+    "groupSize": "Groups of 2–4 people",
+    "included": "What's included",
+    "includedItems": [
+      "Private guided tour",
+      "All transportation",
+      "Pickup & drop-off in Ljubljana",
+      "Local expertise & commentary"
+    ],
+    "extras": "Optional add-ons",
+    "snack": "Homemade snack",
+    "snackDesc": "Choose tortillas, sandwiches, or yogurt bowls",
+    "snackPrice": "+€10 per person",
+    "dogKennel": "Dog kennel",
+    "dogKennelDesc": "Bring your furry friend along",
+    "dogKennelPrice": "Free",
+    "note": "The tour guide speaks Slovenian and English. Lunch is not included, there is an optional stop at a traditional restaurant."
+  },
+  "booking": {
+    "title": "Book Your Tour",
+    "selectDate": "Select a date",
+    "groupSize": "Group size",
+    "people": "people",
+    "extras": "Add-ons",
+    "snackTitle": "Homemade snack (+€10/person)",
+    "snackNone": "No snack",
+    "snackTortillas": "Tortillas",
+    "snackSandwiches": "Sandwiches",
+    "snackYogurt": "Yogurt bowls",
+    "dogTitle": "Dog kennel (free)",
+    "dogLabel": "I'm bringing my dog",
+    "yourDetails": "Your details",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "summary": "Order summary",
+    "base": "Tour",
+    "total": "Total",
+    "proceedPayment": "Proceed to payment",
+    "loading": "Loading available dates...",
+    "noAvailability": "No available dates at the moment. Please check back soon.",
+    "minPeople": "Minimum 2 people required.",
+    "privacyNote": "Your details are used only for this booking and will not be shared.",
+    "advanceNotice": "Bookings must be made at least 2 days in advance.",
+    "vegetarianLabel": "Make it vegetarian",
+    "notesTitle": "Special requests (optional)",
+    "notesPlaceholder": "Allergies, food preferences, or anything else we should know.",
+    "musicTitle": "Pick the vibe",
+    "musicDesc": "What should the soundtrack be?",
+    "musicChill": "Chill & acoustic",
+    "musicUpbeat": "Upbeat & fun",
+    "musicSlovenian": "Slovenian classics",
+    "musicSurprise": "Surprise me",
+    "musicSilence": "No music, please"
+  },
+  "success": {
+    "title": "You're booked!",
+    "subtitle": "A confirmation has been sent to your email. We look forward to showing you Slovenia.",
+    "details": "Booking details",
+    "date": "Date",
+    "people": "People",
+    "extras": "Extras",
+    "total": "Total paid",
+    "backHome": "Back to home",
+    "snack": "Homemade snack",
+    "dog": "Dog kennel"
+  },
+  "chat": {
+    "title": "Ask us anything",
+    "placeholder": "What would you like to know?",
+    "send": "Send",
+    "greeting": "Hi! I'm here to answer your questions about the Tilen Tours day trip. What would you like to know?"
+  },
+  "footer": {
+    "tagline": "Discover Slovenia in a day.",
+    "contact": "Contact",
+    "language": "Language",
+    "rights": "All rights reserved."
+  },
+  "admin": {
+    "login": "Admin Login",
+    "password": "Password",
+    "signIn": "Sign in",
+    "wrongPassword": "Incorrect password.",
+    "dashboard": "Dashboard",
+    "dates": "Manage Dates",
+    "bookings": "Bookings",
+    "signOut": "Sign out",
+    "totalBookings": "Total bookings",
+    "revenue": "Total revenue",
+    "upcoming": "Upcoming",
+    "blockDate": "Click a date to block or unblock it",
+    "blocked": "Blocked",
+    "available": "Available",
+    "booked": "Has booking",
+    "noBookings": "No bookings yet.",
+    "bookingDate": "Date",
+    "bookingPeople": "People",
+    "bookingCustomer": "Customer",
+    "bookingExtras": "Extras",
+    "bookingTotal": "Total",
+    "bookingStatus": "Status",
+    "statusPaid": "Paid",
+    "statusPending": "Pending",
+    "bookingMusic": "Music"
+  }
+}

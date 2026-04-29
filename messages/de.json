@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "bookNow": "Jetzt buchen",
+    "itinerary": "Reiseroute",
+    "pricing": "Preise"
+  },
+  "hero": {
+    "tagline": "Ein Tag. Drei Welten.",
+    "subtitle": "Von Ljubljana durch das smaragdgrüne Soča-Tal bis zur Adriaküste, alles an einem unvergesslichen Tag.",
+    "cta": "Dein Abenteuer buchen",
+    "badge": "Kleine Gruppe · Max. 4 Personen"
+  },
+  "tour": {
+    "title": "Die Tour",
+    "description": "Erleben Sie Sloweniens atemberaubendste Landschaften an einem perfekt kuratierten Tag. Ihr lokaler Reiseführer führt Sie durch versteckte Schluchten, entlang des schönsten Flusses der Welt und zur glitzernden Adria.",
+    "highlights": {
+      "title": "Warum diese Tour",
+      "h1": "Erfahrener lokaler Reiseführer",
+      "h1desc": "Ihr Reiseführer spricht Slowenisch und Englisch und kennt jedes versteckte Juwel der Route.",
+      "h2": "Private Kleingruppe",
+      "h2desc": "Maximal 4 Personen bedeuten ein persönliches, flexibles Erlebnis.",
+      "h3": "Von Tür zu Tür",
+      "h3desc": "Abholung und Rückgabe am Treffpunkt in Ljubljana. Kein Logistikstress.",
+      "h4": "Drei Regionen an einem Tag",
+      "h4desc": "Berge, Flusstäler und die Adria, Sloweniens volle Schönheit in 10 Stunden."
+    }
+  },
+  "itinerary": {
+    "title": "Ihr Tag",
+    "steps": [
+      {
+        "time": "07:00",
+        "name": "Abholung in Ljubljana",
+        "duration": "1h 30m Fahrt",
+        "desc": "Wir treffen uns in Ljubljana und beginnen den Tag mit einer komfortablen Fahrt in Richtung Berge."
+      },
+      {
+        "time": "08:30",
+        "name": "Tolminska Korita",
+        "duration": "1h 15m",
+        "desc": "Erkunden Sie eine der spektakulärsten Naturattraktionen Sloweniens, eine dramatische Schlucht mit kristallklarem Wasser."
+      },
+      {
+        "time": "09:45",
+        "name": "Soča-Tal Aussichtspunkte",
+        "duration": "1h 30m",
+        "desc": "Halten Sie an mehreren Aussichtspunkten, um den berühmten smaragdgrünen Fluss Soča zu sehen und Fotos zu machen."
+      },
+      {
+        "time": "11:15",
+        "name": "Zeit zum Entspannen",
+        "duration": "1h",
+        "desc": "Eine kurze Pause, um die Natur zu genießen, Fotos zu machen oder einfach am Fluss zu entspannen."
+      },
+      {
+        "time": "12:15",
+        "name": "Lokaler Mittagsstopp (optional)",
+        "duration": "1h",
+        "desc": "Optionaler Stopp in einem traditionellen slowenischen Restaurant, wo Gäste individuell bestellen können."
+      },
+      {
+        "time": "13:15",
+        "name": "Fahrt zur Küste",
+        "duration": "1h 30m",
+        "desc": "Malerische Fahrt zur Adria oder zur italienischen Grenze durch die Karstlandschaft."
+      },
+      {
+        "time": "14:45",
+        "name": "Koper oder Triest",
+        "duration": "1h",
+        "desc": "Spaziergang durch charmante Küstenstraßen, Meeresblick und Kaffee oder Gelato am Wasser."
+      },
+      {
+        "time": "15:45",
+        "name": "Rückfahrt nach Ljubljana",
+        "duration": "1h 30m",
+        "desc": "Entspannen Sie sich und genießen Sie die malerische Rückfahrt nach einem vollen, unvergesslichen Tag."
+      },
+      {
+        "time": "17:15",
+        "name": "Abgabe in Ljubljana",
+        "duration": "15m",
+        "desc": "Wir kehren zum ursprünglichen Treffpunkt zurück. Ihr Abenteuer ist abgeschlossen."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Einfache Preise",
+    "perPerson": "pro Person",
+    "groupSize": "Gruppen von 2–4 Personen",
+    "included": "Was ist inbegriffen",
+    "includedItems": [
+      "Private geführte Tour",
+      "Alle Transfers",
+      "Abholung & Rückgabe in Ljubljana",
+      "Lokales Wissen & Kommentar"
+    ],
+    "extras": "Optionale Extras",
+    "snack": "Hausgemachter Snack",
+    "snackDesc": "Wählen Sie Tortillas, Sandwiches oder Joghurtschüsseln",
+    "snackPrice": "+€10 pro Person",
+    "dogKennel": "Hundetransportbox",
+    "dogKennelDesc": "Bringen Sie Ihren Vierbeiner mit",
+    "dogKennelPrice": "Kostenlos",
+    "note": "Der Reiseführer spricht Slowenisch und Englisch. Das Mittagessen ist nicht inbegriffen, es gibt einen optionalen Stopp in einem traditionellen Restaurant."
+  },
+  "booking": {
+    "title": "Ihre Tour buchen",
+    "selectDate": "Datum auswählen",
+    "groupSize": "Gruppengröße",
+    "people": "Personen",
+    "extras": "Extras",
+    "snackTitle": "Hausgemachter Snack (+€10/Person)",
+    "snackNone": "Kein Snack",
+    "snackTortillas": "Tortillas",
+    "snackSandwiches": "Sandwiches",
+    "snackYogurt": "Joghurtschüsseln",
+    "dogTitle": "Hundetransportbox (kostenlos)",
+    "dogLabel": "Ich bringe meinen Hund mit",
+    "yourDetails": "Ihre Angaben",
+    "name": "Vor- und Nachname",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "summary": "Bestellübersicht",
+    "base": "Tour",
+    "total": "Gesamt",
+    "proceedPayment": "Zur Zahlung",
+    "loading": "Verfügbare Daten werden geladen...",
+    "noAvailability": "Derzeit keine verfügbaren Termine. Bitte schauen Sie bald wieder vorbei.",
+    "minPeople": "Mindestens 2 Personen erforderlich.",
+    "privacyNote": "Ihre Daten werden nur für diese Buchung verwendet.",
+    "advanceNotice": "Buchungen müssen mindestens 2 Tage im Voraus erfolgen.",
+    "vegetarianLabel": "Vegetarisch machen",
+    "notesTitle": "Besondere Wünsche (optional)",
+    "notesPlaceholder": "Allergien, Essenspräferenzen oder andere Anmerkungen.",
+    "musicTitle": "Wähle die Stimmung",
+    "musicDesc": "Welcher Soundtrack soll es sein?",
+    "musicChill": "Entspannt & akustisch",
+    "musicUpbeat": "Schwungvoll & lustig",
+    "musicSlovenian": "Slowenische Klassiker",
+    "musicSurprise": "Überrasche mich",
+    "musicSilence": "Bitte keine Musik"
+  },
+  "success": {
+    "title": "Sie sind gebucht!",
+    "subtitle": "Eine Bestätigung wurde an Ihre E-Mail gesendet. Wir freuen uns darauf, Ihnen Slowenien zu zeigen.",
+    "details": "Buchungsdetails",
+    "date": "Datum",
+    "people": "Personen",
+    "extras": "Extras",
+    "total": "Gesamt bezahlt",
+    "backHome": "Zurück zur Startseite",
+    "snack": "Hausgemachter Snack",
+    "dog": "Hundetransportbox"
+  },
+  "chat": {
+    "title": "Fragen Sie uns",
+    "placeholder": "Was möchten Sie wissen?",
+    "send": "Senden",
+    "greeting": "Hallo! Ich bin hier, um Ihre Fragen zur Tagesreise von Tilen Tours zu beantworten. Was möchten Sie wissen?"
+  },
+  "footer": {
+    "tagline": "Entdecken Sie Slowenien an einem Tag.",
+    "contact": "Kontakt",
+    "language": "Sprache",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "admin": {
+    "login": "Admin-Anmeldung",
+    "password": "Passwort",
+    "signIn": "Anmelden",
+    "wrongPassword": "Falsches Passwort.",
+    "dashboard": "Dashboard",
+    "dates": "Daten verwalten",
+    "bookings": "Buchungen",
+    "signOut": "Abmelden",
+    "totalBookings": "Buchungen gesamt",
+    "revenue": "Gesamteinnahmen",
+    "upcoming": "Bevorstehend",
+    "blockDate": "Klicken Sie auf ein Datum, um es zu sperren oder freizugeben",
+    "blocked": "Gesperrt",
+    "available": "Verfügbar",
+    "booked": "Hat eine Buchung",
+    "noBookings": "Noch keine Buchungen.",
+    "bookingDate": "Datum",
+    "bookingPeople": "Personen",
+    "bookingCustomer": "Kunde",
+    "bookingExtras": "Extras",
+    "bookingTotal": "Gesamt",
+    "bookingStatus": "Status",
+    "statusPaid": "Bezahlt",
+    "statusPending": "Ausstehend",
+    "bookingMusic": "Musik"
+  }
+}
