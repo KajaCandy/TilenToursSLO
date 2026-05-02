@@ -16,7 +16,7 @@ const REVIEWS: Review[] = [
     slug: "maddy-charles",
     name: "Maddy & Charles",
     country: "Australia",
-    focus: "center 30%",
+    focus: "center 18%",
     text: "Tilen is one of the best couch surfing experiences I've had and I honestly believe that my life is richer because we met. He is a kind and genuine person who was willing to help, chill, hangout or just give local knowledge. His family was also kind and welcoming, and they (including Nala) are all part of the reason me and my partner enjoyed Slovenia so much! 😄\n\nDuring the days we explored local attractions, chat about anything from music to politics and during the night we all chilled out together playing video games and reading.",
   },
   {
@@ -30,7 +30,7 @@ const REVIEWS: Review[] = [
     slug: "saby",
     name: "Saby",
     country: "Peru",
-    focus: "70% center",
+    focus: "70% 60%",
     text: "Tilen is so kind and generous! He hosted me in his charming town! He picked me up at the bus station and treated me to dinner. He's so friendly; you can feel his positive energy from the very first moment! ✨\n\nHe took me on a trip to Bled, a very touristy and truly wonderful town, surrounded by mountains and a lake. He invited me to Bled Castle, and it was an amazing experience! 😺 Tilen gave me a portable charger, which was exactly what I needed, it was such a sweet gesture! 🙏\n\nHe has a great passion for travel and knows so many incredible places! He gave me invaluable information for my trip. The best host in the galaxy! 🍀",
   },
   {
@@ -38,7 +38,7 @@ const REVIEWS: Review[] = [
     name: "Zoé",
     country: "France",
     focus: "center 30%",
-    text: "Très belle expérience ! J'ai été très bien reçu, c'est quelqu'un de passionné et jovial !\n\nJe souhaite que nos chemins se recroisent ☀️",
+    text: "What a wonderful experience! I was so warmly welcomed — he's a passionate and joyful person!\n\nI hope our paths cross again someday ☀️",
   },
 ];
 
@@ -58,40 +58,40 @@ export default function Reviews() {
           {REVIEWS.map((r) => (
             <article
               key={r.slug}
-              className="bg-beige-50 rounded-2xl overflow-hidden border border-beige-200 shadow-sm hover:shadow-md transition-shadow flex"
+              className="bg-beige-50 rounded-2xl border border-beige-200 shadow-sm hover:shadow-md transition-shadow p-6 sm:p-7 flex flex-col"
             >
-              <div className="relative w-32 sm:w-40 flex-shrink-0 overflow-hidden">
+              <header className="flex items-center gap-4 mb-4">
                 <img
                   src={`/media/reviews/${r.slug}.webp`}
                   alt={`${r.name} from ${r.country}`}
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="w-16 h-16 rounded-full object-cover flex-shrink-0 ring-2 ring-white shadow-sm"
                   style={{ objectPosition: r.focus }}
                   loading="lazy"
                 />
-              </div>
-
-              <div className="p-5 sm:p-6 flex-1 flex flex-col min-w-0">
-                <div className="flex items-center gap-0.5 mb-2">
-                  {[0, 1, 2, 3, 4].map((i) => (
-                    <svg key={i} className="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2l2.39 7.36H22l-6.18 4.49L18.21 22 12 17.27 5.79 22l2.39-8.15L2 9.36h7.61z" />
-                    </svg>
-                  ))}
-                </div>
-                <div className="flex items-baseline justify-between mb-3 gap-2">
+                <div className="min-w-0 flex-1">
                   <h3 className="font-display text-lg text-forest-900 truncate">{r.name}</h3>
-                  <span className="inline-flex items-center gap-1 text-xs text-forest-500 whitespace-nowrap">
-                    <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                    {r.country}
-                  </span>
+                  <div className="flex items-center gap-2 mt-0.5">
+                    <span className="inline-flex items-center gap-1 text-xs text-forest-500">
+                      <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      {r.country}
+                    </span>
+                    <span className="text-forest-300">·</span>
+                    <span className="inline-flex items-center gap-0.5">
+                      {[0, 1, 2, 3, 4].map((i) => (
+                        <svg key={i} className="w-3 h-3 text-amber-400" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 2l2.39 7.36H22l-6.18 4.49L18.21 22 12 17.27 5.79 22l2.39-8.15L2 9.36h7.61z" />
+                        </svg>
+                      ))}
+                    </span>
+                  </div>
                 </div>
-                <blockquote className="text-forest-700 text-sm leading-relaxed whitespace-pre-line flex-1">
-                  {r.text}
-                </blockquote>
-              </div>
+              </header>
+              <blockquote className="text-forest-700 text-sm leading-relaxed whitespace-pre-line flex-1">
+                {r.text}
+              </blockquote>
             </article>
           ))}
         </div>
