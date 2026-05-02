@@ -2,7 +2,8 @@
   "nav": {
     "bookNow": "Book Now",
     "itinerary": "Itinerary",
-    "pricing": "Pricing"
+    "pricing": "Pricing",
+    "reviews": "Reviews"
   },
   "hero": {
     "tagline": "One Day. Three Worlds.",
@@ -191,5 +192,12 @@
     "statusPaid": "Paid",
     "statusPending": "Pending",
     "bookingMusic": "Music"
+  },
+  "reviews": {
+    "eyebrow": "Real guests, real words",
+    "title": "Stories from the road",
+    "subtitle": "A few of the people Tilen has hosted and shown around Slovenia, in their own words.",
+    "badge": "Would Stay Again",
+    "source": "All reviews originally posted on Couchsurfing."
   }
 }

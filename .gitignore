@@ -26,3 +26,6 @@ public/media/*.HEIC
 public/media/Parallax/*.png
 slike mene + izletov/
 *-unsplash.jpg
+
+.vercel
+.env*.local

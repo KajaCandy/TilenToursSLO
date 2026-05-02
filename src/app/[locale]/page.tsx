@@ -7,6 +7,7 @@ import ChatWidget from "@/components/ChatWidget";
 import HeroParallax from "@/components/HeroParallax";
 import ItineraryTimeline from "@/components/ItineraryTimeline";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import Reviews from "@/components/Reviews";
 
 export default function HomePage() {
   const t = useTranslations();
@@ -20,6 +21,7 @@ export default function HomePage() {
           <span className="font-display text-lg text-beige-100 tracking-wide">Tilen Tours</span>
           <div className="flex items-center gap-6">
             <a href="#itinerary" className="hidden sm:block text-sm text-beige-300 hover:text-beige-100 transition-colors">{t("nav.itinerary")}</a>
+            <a href="#reviews" className="hidden sm:block text-sm text-beige-300 hover:text-beige-100 transition-colors">{t("nav.reviews")}</a>
             <a href="#pricing" className="hidden sm:block text-sm text-beige-300 hover:text-beige-100 transition-colors">{t("nav.pricing")}</a>
             <LanguageSwitcher />
             <Link href={`/${locale}/book`} className="bg-forest-600 hover:bg-forest-500 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
@@ -121,6 +123,9 @@ export default function HomePage() {
           <ItineraryTimeline />
         </div>
       </section>
+
+      {/* Reviews */}
+      <Reviews />
 
       {/* Pricing */}
       <section id="pricing" className="py-24 px-4 bg-forest-950">

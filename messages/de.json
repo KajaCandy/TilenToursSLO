@@ -2,7 +2,8 @@
   "nav": {
     "bookNow": "Jetzt buchen",
     "itinerary": "Reiseroute",
-    "pricing": "Preise"
+    "pricing": "Preise",
+    "reviews": "Bewertungen"
   },
   "hero": {
     "tagline": "Ein Tag. Drei Welten.",
@@ -191,5 +192,12 @@
     "statusPaid": "Bezahlt",
     "statusPending": "Ausstehend",
     "bookingMusic": "Musik"
+  },
+  "reviews": {
+    "eyebrow": "Echte Gäste, echte Worte",
+    "title": "Geschichten von unterwegs",
+    "subtitle": "Ein paar Menschen, die Tilen beherbergt und durch Slowenien geführt hat — in ihren eigenen Worten.",
+    "badge": "Würde wiederkommen",
+    "source": "Alle Bewertungen wurden ursprünglich auf Couchsurfing veröffentlicht."
   }
 }
