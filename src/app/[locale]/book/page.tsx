@@ -39,7 +39,7 @@ export default function BookPage() {
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   const [numPeople, setNumPeople] = useState(2);
   const [snackChoice, setSnackChoice] = useState<SnackChoice>(null);
-  const [vegetarian, setVegetarian] = useState(false);
+  const [vegetarianCount, setVegetarianCount] = useState(0);
   const [dogKennel, setDogKennel] = useState(false);
   const [musicChoice, setMusicChoice] = useState<MusicChoice>(null);
   const [notes, setNotes] = useState("");
@@ -56,6 +56,15 @@ export default function BookPage() {
       .then((d) => setAvailability(d))
       .finally(() => setLoadingAv(false));
   }, []);
+
+  // Keep vegetarianCount in valid range when numPeople or snackChoice changes
+  useEffect(() => {
+    if (!snackChoice) {
+      if (vegetarianCount !== 0) setVegetarianCount(0);
+    } else if (vegetarianCount > numPeople) {
+      setVegetarianCount(numPeople);
+    }
+  }, [numPeople, snackChoice, vegetarianCount]);
 
   const basePrice = numPeople * 130;
   const snackPrice = snackChoice ? numPeople * 10 : 0;
@@ -83,7 +92,7 @@ export default function BookPage() {
           date: selectedDate,
           numPeople,
           snackChoice,
-          vegetarian: snackChoice ? vegetarian : false,
+          vegetarianCount: snackChoice ? vegetarianCount : 0,
           dogKennel,
           musicPreference: musicChoice,
           notes: notes.trim() || null,
@@ -218,15 +227,26 @@ export default function BookPage() {
                 ))}
               </div>
               {snackChoice && (
-                <label className="flex items-center gap-3 cursor-pointer mb-6">
-                  <input
-                    type="checkbox"
-                    checked={vegetarian}
-                    onChange={(e) => setVegetarian(e.target.checked)}
-                    className="w-5 h-5 accent-forest-700 rounded"
-                  />
-                  <span className="text-sm text-forest-700">{t("booking.vegetarianLabel")}</span>
-                </label>
+                <div className="mb-6">
+                  <p className="text-sm text-forest-700 font-medium mb-1">{t("booking.vegetarianTitle")}</p>
+                  <p className="text-xs text-forest-500 mb-2">{t("booking.vegetarianHelp")}</p>
+                  <div className="flex flex-wrap gap-2">
+                    {Array.from({ length: numPeople + 1 }, (_, n) => n).map((n) => (
+                      <button
+                        key={n}
+                        type="button"
+                        onClick={() => setVegetarianCount(n)}
+                        className={`min-w-[3rem] py-2 px-3 rounded-xl text-sm border-2 transition-all ${
+                          vegetarianCount === n
+                            ? "border-forest-700 bg-forest-700 text-white"
+                            : "border-beige-300 text-forest-700 hover:border-forest-400"
+                        }`}
+                      >
+                        {n}
+                      </button>
+                    ))}
+                  </div>
+                </div>
               )}
               {/* Dog */}
               <p className="text-sm text-forest-700 font-medium mb-2">{t("booking.dogTitle")}</p>

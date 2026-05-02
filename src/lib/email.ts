@@ -11,7 +11,7 @@ interface BookingEmailData {
   date: string;
   numPeople: number;
   snackChoice: string | null;
-  vegetarian: boolean;
+  vegetarianCount: number;
   dogKennel: boolean;
   musicPreference: string | null;
   notes: string | null;
@@ -42,7 +42,12 @@ function formatDate(dateStr: string) {
 function buildExtrasText(data: BookingEmailData) {
   const extras: string[] = [];
   if (data.snackChoice) {
-    extras.push(`${data.vegetarian ? "Vegetarian " : ""}homemade snack: ${data.snackChoice}`);
+    const veg = data.vegetarianCount;
+    let label: string;
+    if (veg === 0) label = `Homemade snack: ${data.snackChoice}`;
+    else if (veg === data.numPeople) label = `Vegetarian homemade snack: ${data.snackChoice}`;
+    else label = `Homemade snack: ${data.snackChoice} (${veg} vegetarian, ${data.numPeople - veg} regular)`;
+    extras.push(label);
   }
   if (data.dogKennel) extras.push("Dog kennel");
   if (data.musicPreference) {

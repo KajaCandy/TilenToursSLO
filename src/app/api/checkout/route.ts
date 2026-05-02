@@ -7,11 +7,15 @@ const SNACK_PRICE = 10_00;
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
-  const { date, numPeople, snackChoice, vegetarian, dogKennel, musicPreference, notes, customerName, customerEmail, customerPhone } = body;
+  const { date, numPeople, snackChoice, vegetarianCount: vegetarianCountRaw, dogKennel, musicPreference, notes, customerName, customerEmail, customerPhone } = body;
 
   if (!date || !numPeople || numPeople < 2 || numPeople > 4) {
     return NextResponse.json({ error: "Invalid booking data" }, { status: 400 });
   }
+
+  const vegetarianCount = snackChoice
+    ? Math.max(0, Math.min(numPeople, parseInt(String(vegetarianCountRaw ?? 0)) || 0))
+    : 0;
 
   const now = new Date();
   const minBookable = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2);
@@ -25,10 +29,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Date not available" }, { status: 409 });
   }
 
-  const snackLabel = snackChoice
-    ? `${vegetarian ? "Vegetarian " : ""}homemade snack: ${snackChoice}`
-    : null;
-
   const lineItems: { price_data: { currency: string; product_data: { name: string }; unit_amount: number }; quantity: number }[] = [
     {
       price_data: { currency: "eur", product_data: { name: "Tilen Tours Slovenia: Full Day Tour" }, unit_amount: PRICE_PER_PERSON },
@@ -36,11 +36,20 @@ export async function POST(req: NextRequest) {
     },
   ];
 
-  if (snackChoice && snackLabel) {
-    lineItems.push({
-      price_data: { currency: "eur", product_data: { name: snackLabel }, unit_amount: SNACK_PRICE },
-      quantity: numPeople,
-    });
+  if (snackChoice) {
+    const regularCount = numPeople - vegetarianCount;
+    if (regularCount > 0) {
+      lineItems.push({
+        price_data: { currency: "eur", product_data: { name: `Homemade snack: ${snackChoice}` }, unit_amount: SNACK_PRICE },
+        quantity: regularCount,
+      });
+    }
+    if (vegetarianCount > 0) {
+      lineItems.push({
+        price_data: { currency: "eur", product_data: { name: `Vegetarian homemade snack: ${snackChoice}` }, unit_amount: SNACK_PRICE },
+        quantity: vegetarianCount,
+      });
+    }
   }
 
   const totalPrice = PRICE_PER_PERSON * numPeople + (snackChoice ? SNACK_PRICE * numPeople : 0);
@@ -59,7 +68,7 @@ export async function POST(req: NextRequest) {
       date,
       numPeople: String(numPeople),
       snackChoice: snackChoice ?? "",
-      vegetarian: vegetarian ? "true" : "false",
+      vegetarianCount: String(vegetarianCount),
       dogKennel: dogKennel ? "true" : "false",
       musicPreference: musicPreference ?? "",
       notes: trimmedNotes,

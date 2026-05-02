@@ -9,7 +9,7 @@ interface Booking {
   date: string;
   numPeople: number;
   snackChoice: string | null;
-  vegetarian: boolean;
+  vegetarianCount: number;
   dogKennel: boolean;
   musicPreference: string | null;
   notes: string | null;
@@ -76,8 +76,15 @@ export default function DashboardPage() {
             </thead>
             <tbody className="divide-y divide-beige-50">
               {bookings.map((b) => {
+                const snackLabel = b.snackChoice
+                  ? b.vegetarianCount === 0
+                    ? `Snack: ${b.snackChoice}`
+                    : b.vegetarianCount === b.numPeople
+                      ? `Veg Snack: ${b.snackChoice}`
+                      : `Snack: ${b.snackChoice} (${b.vegetarianCount} veg / ${b.numPeople - b.vegetarianCount} reg)`
+                  : null;
                 const extras = [
-                  b.snackChoice && `${b.vegetarian ? "Veg " : ""}Snack: ${b.snackChoice}`,
+                  snackLabel,
                   b.dogKennel && "Dog",
                   b.musicPreference && `${t("bookingMusic")}: ${b.musicPreference}`,
                 ].filter(Boolean).join(", ");

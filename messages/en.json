@@ -142,7 +142,6 @@
     "minPeople": "Minimum 2 people required.",
     "privacyNote": "Your details are used only for this booking and will not be shared.",
     "advanceNotice": "Bookings must be made at least 2 days in advance.",
-    "vegetarianLabel": "Make it vegetarian",
     "notesTitle": "Special requests (optional)",
     "notesPlaceholder": "Allergies, food preferences, or anything else we should know.",
     "musicTitle": "Pick the vibe",
@@ -151,7 +150,9 @@
     "musicUpbeat": "Upbeat & fun",
     "musicSlovenian": "Slovenian classics",
     "musicSurprise": "Surprise me",
-    "musicSilence": "No music, please"
+    "musicSilence": "No music, please",
+    "vegetarianTitle": "Vegetarian snacks",
+    "vegetarianHelp": "How many in your group prefer vegetarian?"
   },
   "success": {
     "title": "You're booked!",

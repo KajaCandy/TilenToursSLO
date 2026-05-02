@@ -12,7 +12,7 @@ model Booking {
   date            String
   numPeople       Int
   snackChoice     String?
-  vegetarian      Boolean  @default(false)
+  vegetarianCount Int      @default(0)
   dogKennel       Boolean  @default(false)
   notes           String?
   musicPreference String?

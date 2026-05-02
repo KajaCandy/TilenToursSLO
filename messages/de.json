@@ -142,7 +142,6 @@
     "minPeople": "Mindestens 2 Personen erforderlich.",
     "privacyNote": "Ihre Daten werden nur für diese Buchung verwendet.",
     "advanceNotice": "Buchungen müssen mindestens 2 Tage im Voraus erfolgen.",
-    "vegetarianLabel": "Vegetarisch machen",
     "notesTitle": "Besondere Wünsche (optional)",
     "notesPlaceholder": "Allergien, Essenspräferenzen oder andere Anmerkungen.",
     "musicTitle": "Wähle die Stimmung",
@@ -151,7 +150,9 @@
     "musicUpbeat": "Schwungvoll & lustig",
     "musicSlovenian": "Slowenische Klassiker",
     "musicSurprise": "Überrasche mich",
-    "musicSilence": "Bitte keine Musik"
+    "musicSilence": "Bitte keine Musik",
+    "vegetarianTitle": "Vegetarische Snacks",
+    "vegetarianHelp": "Wie viele in Ihrer Gruppe möchten vegetarisch?"
   },
   "success": {
     "title": "Sie sind gebucht!",

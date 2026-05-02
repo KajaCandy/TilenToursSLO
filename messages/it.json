@@ -142,7 +142,6 @@
     "minPeople": "Minimo 2 persone richieste.",
     "privacyNote": "I tuoi dati vengono utilizzati solo per questa prenotazione.",
     "advanceNotice": "Le prenotazioni devono essere effettuate almeno 2 giorni in anticipo.",
-    "vegetarianLabel": "Rendilo vegetariano",
     "notesTitle": "Richieste speciali (opzionale)",
     "notesPlaceholder": "Allergie, preferenze alimentari o qualsiasi altra cosa che dovremmo sapere.",
     "musicTitle": "Scegli l'atmosfera",
@@ -151,7 +150,9 @@
     "musicUpbeat": "Allegra e divertente",
     "musicSlovenian": "Classici sloveni",
     "musicSurprise": "Sorprendimi",
-    "musicSilence": "Niente musica, per favore"
+    "musicSilence": "Niente musica, per favore",
+    "vegetarianTitle": "Spuntini vegetariani",
+    "vegetarianHelp": "Quante persone del gruppo preferiscono vegetariano?"
   },
   "success": {
     "title": "Sei prenotato!",

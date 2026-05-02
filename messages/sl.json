@@ -142,7 +142,6 @@
     "minPeople": "Potrebni so najmanj 2 osebi.",
     "privacyNote": "Vaši podatki se uporabljajo samo za to rezervacijo.",
     "advanceNotice": "Rezervacije morajo biti opravljene vsaj 2 dni vnaprej.",
-    "vegetarianLabel": "Naredite vegetarijansko",
     "notesTitle": "Posebne želje (izbirno)",
     "notesPlaceholder": "Alergije, prehranske preference ali kar koli drugega, kar bi morali vedeti.",
     "musicTitle": "Izberi vzdušje",
@@ -151,7 +150,9 @@
     "musicUpbeat": "Živahno in zabavno",
     "musicSlovenian": "Slovenske klasike",
     "musicSurprise": "Presenetite me",
-    "musicSilence": "Brez glasbe, prosim"
+    "musicSilence": "Brez glasbe, prosim",
+    "vegetarianTitle": "Vegetarijanski prigrizki",
+    "vegetarianHelp": "Koliko oseb v skupini želi vegetarijanski obrok?"
   },
   "success": {
     "title": "Rezervacija potrjena!",
