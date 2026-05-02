@@ -62,7 +62,7 @@ export default function HomePage() {
             </svg>
           </div>
         </div>
-        {/* Brush-stroke transition — sits below the 100vh sticky viewport,
+        {/* Brush-stroke transition - sits below the 100vh sticky viewport,
             at the natural seam between the hero section and the next one. */}
         <svg
           className="absolute inset-x-0 bottom-0 w-full h-20 sm:h-28 pointer-events-none block z-20"

@@ -13,7 +13,7 @@ REVIEWS_KEYS = {
     "sl": {
         "eyebrow": "Pravi gostje, pravi občutki",
         "title": "Zgodbe s poti",
-        "subtitle": "Nekaj ljudi, ki jih je Tilen popeljal po Sloveniji — povedano z njihovimi besedami.",
+        "subtitle": "Nekaj ljudi, ki jih je Tilen popeljal po Sloveniji - povedano z njihovimi besedami.",
     },
     "it": {
         "eyebrow": "Ospiti veri, parole vere",
@@ -23,7 +23,7 @@ REVIEWS_KEYS = {
     "de": {
         "eyebrow": "Echte Gäste, echte Worte",
         "title": "Geschichten von unterwegs",
-        "subtitle": "Ein paar Menschen, die Tilen durch Slowenien geführt hat — in ihren eigenen Worten.",
+        "subtitle": "Ein paar Menschen, die Tilen durch Slowenien geführt hat - in ihren eigenen Worten.",
     },
 }
 

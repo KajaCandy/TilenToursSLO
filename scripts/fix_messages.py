@@ -17,7 +17,7 @@ CLOCK_TIMES = [
 ]
 
 def fix_em_dashes(s: str) -> str:
-    return s.replace(" — ", ", ").replace("—", ",")
+    return s.replace(" - ", ", ").replace("-", ",")
 
 def walk_strings(obj, fn):
     if isinstance(obj, dict):

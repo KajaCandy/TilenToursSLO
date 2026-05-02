@@ -15,7 +15,7 @@ REVIEWS_KEYS = {
     "sl": {
         "eyebrow": "Pravi gostje, pravi občutki",
         "title": "Zgodbe s poti",
-        "subtitle": "Nekaj ljudi, ki jih je Tilen gostil in popeljal po Sloveniji — povedano z njihovimi besedami.",
+        "subtitle": "Nekaj ljudi, ki jih je Tilen gostil in popeljal po Sloveniji - povedano z njihovimi besedami.",
         "badge": "Bi spet ostal",
         "source": "Vsi komentarji so bili prvotno objavljeni na Couchsurfingu.",
     },
@@ -29,7 +29,7 @@ REVIEWS_KEYS = {
     "de": {
         "eyebrow": "Echte Gäste, echte Worte",
         "title": "Geschichten von unterwegs",
-        "subtitle": "Ein paar Menschen, die Tilen beherbergt und durch Slowenien geführt hat — in ihren eigenen Worten.",
+        "subtitle": "Ein paar Menschen, die Tilen beherbergt und durch Slowenien geführt hat - in ihren eigenen Worten.",
         "badge": "Würde wiederkommen",
         "source": "Alle Bewertungen wurden ursprünglich auf Couchsurfing veröffentlicht.",
     },

@@ -24,7 +24,7 @@ const REVIEWS: Review[] = [
     name: "Nav & Shish",
     country: "India",
     focus: "center 35%",
-    text: "Tilen is such a wonderful person! 😊\n\nHe really made our time in Slovenia very special and memorable. He showed us a part of his homeland which we'd have never otherwise experienced — and taught us things about Slovenia, which, we as visitors, would have easily missed! He is kind, fun and very friendly. He also brought us to taste some delicious local food very thoughtfully and we enjoyed having fun conversations on so many topics. And he's intelligent — aware of so many things and very open to the world!\n\nWe're super grateful for spending some good time with you Tilen! Glad to have made friends with you. And we look forward to seeing you in another part of the world, soon! 😄",
+    text: "Tilen is such a wonderful person! 😊\n\nHe really made our time in Slovenia very special and memorable. He showed us a part of his homeland which we'd have never otherwise experienced - and taught us things about Slovenia, which, we as visitors, would have easily missed! He is kind, fun and very friendly. He also brought us to taste some delicious local food very thoughtfully and we enjoyed having fun conversations on so many topics. And he's intelligent - aware of so many things and very open to the world!\n\nWe're super grateful for spending some good time with you Tilen! Glad to have made friends with you. And we look forward to seeing you in another part of the world, soon! 😄",
   },
   {
     slug: "saby",
@@ -38,7 +38,7 @@ const REVIEWS: Review[] = [
     name: "Zoé",
     country: "France",
     focus: "center 30%",
-    text: "What a wonderful experience! I was so warmly welcomed — he's a passionate and joyful person!\n\nI hope our paths cross again someday ☀️",
+    text: "What a wonderful experience! I was so warmly welcomed - he's a passionate and joyful person!\n\nI hope our paths cross again someday ☀️",
   },
 ];
 
