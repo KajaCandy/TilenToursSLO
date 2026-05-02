@@ -54,13 +54,13 @@ export default function Reviews() {
           <p className="text-forest-600 max-w-xl mx-auto">{t("subtitle")}</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-6">
           {REVIEWS.map((r) => (
             <article
               key={r.slug}
-              className="bg-beige-50 rounded-2xl overflow-hidden border border-beige-200 shadow-sm hover:shadow-md transition-shadow flex flex-col"
+              className="bg-beige-50 rounded-2xl overflow-hidden border border-beige-200 shadow-sm hover:shadow-md transition-shadow flex"
             >
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <div className="relative w-32 sm:w-40 flex-shrink-0 overflow-hidden">
                 <img
                   src={`/media/reviews/${r.slug}.webp`}
                   alt={`${r.name} from ${r.country}`}
@@ -68,20 +68,20 @@ export default function Reviews() {
                   style={{ objectPosition: r.focus }}
                   loading="lazy"
                 />
-                <div className="absolute top-4 left-4 inline-flex items-center gap-0.5 bg-white/95 backdrop-blur-sm rounded-full px-3 py-1.5 shadow-sm">
+              </div>
+
+              <div className="p-5 sm:p-6 flex-1 flex flex-col min-w-0">
+                <div className="flex items-center gap-0.5 mb-2">
                   {[0, 1, 2, 3, 4].map((i) => (
                     <svg key={i} className="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 2l2.39 7.36H22l-6.18 4.49L18.21 22 12 17.27 5.79 22l2.39-8.15L2 9.36h7.61z" />
                     </svg>
                   ))}
                 </div>
-              </div>
-
-              <div className="p-6 flex-1 flex flex-col">
-                <div className="flex items-baseline justify-between mb-4 gap-2">
-                  <h3 className="font-display text-xl text-forest-900">{r.name}</h3>
-                  <span className="inline-flex items-center gap-1.5 text-sm text-forest-500 whitespace-nowrap">
-                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex items-baseline justify-between mb-3 gap-2">
+                  <h3 className="font-display text-lg text-forest-900 truncate">{r.name}</h3>
+                  <span className="inline-flex items-center gap-1 text-xs text-forest-500 whitespace-nowrap">
+                    <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
