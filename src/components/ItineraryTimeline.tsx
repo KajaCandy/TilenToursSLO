@@ -57,9 +57,19 @@ const ICONS: ReactNode[] = [
   </g>,
 ];
 
+interface Step {
+  time: string;
+  name: string;
+  duration: string;
+  desc: string;
+  more?: string;
+}
+
 export default function ItineraryTimeline() {
   const t = useTranslations("itinerary");
-  const steps = t.raw("steps") as { time: string; name: string; duration: string; desc: string }[];
+  const steps = t.raw("steps") as Step[];
+  const readMore = t("readMore");
+  const showLess = t("showLess");
 
   return (
     <div className="relative">
@@ -82,11 +92,32 @@ export default function ItineraryTimeline() {
                 {ICONS[i] ?? ICONS[ICONS.length - 1]}
               </svg>
             </div>
-            <div className="pt-2 pb-2">
+            <div className="pt-2 pb-2 flex-1 min-w-0">
               <span className="text-xs font-medium text-forest-500 uppercase tracking-wider">{step.time}</span>
               <h3 className="font-display text-xl text-forest-900 mt-1 mb-0.5">{step.name}</h3>
               <span className="text-xs text-beige-500 font-medium">{step.duration}</span>
               <p className="text-forest-600 text-sm mt-2 leading-relaxed">{step.desc}</p>
+              {step.more && (
+                <details className="group mt-3">
+                  <summary className="cursor-pointer list-none inline-flex items-center gap-1 text-xs font-medium text-forest-700 hover:text-forest-900 transition-colors">
+                    <span className="group-open:hidden">{readMore}</span>
+                    <span className="hidden group-open:inline">{showLess}</span>
+                    <svg
+                      className="w-3 h-3 transition-transform group-open:rotate-180"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={2.5}
+                      viewBox="0 0 24 24"
+                      aria-hidden
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </summary>
+                  <p className="mt-3 text-forest-600 text-sm leading-relaxed border-l-2 border-forest-200 pl-4">
+                    {step.more}
+                  </p>
+                </details>
+              )}
             </div>
           </div>
         ))}

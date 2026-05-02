@@ -33,57 +33,68 @@
         "time": "07:00",
         "name": "Pickup in Ljubljana",
         "duration": "1h 30m drive",
-        "desc": "We meet in Ljubljana and start the day with a comfortable drive towards the mountains."
+        "desc": "We meet in Ljubljana and start the day with a comfortable drive towards the mountains.",
+        "more": "Ljubljana means 'the beloved' in Slovenian — a small, walkable capital wrapped around a winding river and watched over by a 12th-century hilltop castle. Its symbol is the dragon: legend says Jason of the Argonauts slew one here on his way home from Colchis. You'll find dragons on every corner of the famous Dragon Bridge."
       },
       {
         "time": "08:30",
         "name": "Tolminska Korita",
         "duration": "1h 15m",
-        "desc": "Explore one of Slovenia's most stunning natural attractions, a dramatic gorge with crystal-clear water and scenic viewpoints."
+        "desc": "Explore one of Slovenia's most stunning natural attractions, a dramatic gorge with crystal-clear water and scenic viewpoints.",
+        "more": "The deepest, southernmost gorges of Triglav National Park — 60 meters carved through limestone by two clear rivers, the Tolminka and the Zadlaščica. Dante is said to have visited in 1319 and used a cave near the Devil's Bridge as inspiration for his Inferno. Look up for the wedged 'Bear's Head' boulder, suspended between the canyon walls since the last ice age."
       },
       {
         "time": "09:45",
         "name": "Soča Valley Viewpoints",
         "duration": "1h 30m",
-        "desc": "Stop at several viewpoints to see the famous emerald Soča River and take photos of this extraordinary landscape."
+        "desc": "Stop at several viewpoints to see the famous emerald Soča River and take photos of this extraordinary landscape.",
+        "more": "Slovenes call the Soča the 'Emerald Beauty' — its impossible blue-green comes from limestone particles suspended in glacial meltwater. This was the front line of WWI's brutal Isonzo battles, where over 300,000 soldiers died. Ernest Hemingway drove ambulances here in 1918 and later turned the experience into A Farewell to Arms."
       },
       {
         "time": "11:15",
         "name": "Time to Relax",
         "duration": "1h",
-        "desc": "A short break to enjoy nature, take photos, or simply relax by the river at your own pace."
+        "desc": "A short break to enjoy nature, take photos, or simply relax by the river at your own pace.",
+        "more": "Slovenes have a phrase for slowing down: 'pridi na kavo' — come for a coffee. Out here, that means sitting with your feet in 8°C water and listening to the river. Local custom says to drop a small stone into the Soča when you visit — the river will call you back."
       },
       {
         "time": "12:15",
         "name": "Local Lunch Stop",
         "duration": "1h",
-        "desc": "Optional stop at a traditional Slovenian restaurant where guests can order food individually."
+        "desc": "Optional stop at a traditional Slovenian restaurant where guests can order food individually.",
+        "more": "Slovenian food sits at a crossroads: alpine, Mediterranean, and Pannonian. Try jota (sauerkraut and bean stew), štruklji (rolled dumplings — sweet or savory), or kranjska klobasa with žganci (Carniolan sausage and buckwheat polenta). Wash it down with teran, a deep ruby wine grown only on the Karst plateau's iron-rich soil."
       },
       {
         "time": "13:15",
         "name": "Drive to the Coast",
         "duration": "1h 30m",
-        "desc": "Scenic drive towards the Adriatic coast or the Italian border through beautiful Karst landscapes."
+        "desc": "Scenic drive towards the Adriatic coast or the Italian border through beautiful Karst landscapes.",
+        "more": "We cross the Karst — the limestone plateau that gave its name to every cave system on Earth. Geologists worldwide call this kind of terrain 'karst' after this exact region. It hides over 11,000 cataloged caves, deep sinkholes called dolines, and the burja, a cold wind that can hit 200 km/h."
       },
       {
         "time": "14:45",
         "name": "Koper or Trieste",
         "duration": "1h",
-        "desc": "Walk through charming coastal streets, enjoy sea views, and have coffee or gelato by the water."
+        "desc": "Walk through charming coastal streets, enjoy sea views, and have coffee or gelato by the water.",
+        "more": "Two coastal cities, depending on the day. Koper — Slovenia's only port — was Venetian for 500 years and still wears it: the central square is a near-perfect miniature of Venice's San Marco. Trieste, just over the Italian border, is where James Joyce wrote most of Ulysses, and where Italian, Slavic, and Habsburg cultures still tangle in every café."
       },
       {
         "time": "15:45",
         "name": "Return to Ljubljana",
         "duration": "1h 30m",
-        "desc": "Relax and enjoy the scenic ride back after a full, memorable day."
+        "desc": "Relax and enjoy the scenic ride back after a full, memorable day.",
+        "more": "The drive back follows the old Roman road from Aquileia to Emona — Ljubljana's Roman name, still used on local manhole covers and craft-beer labels. On clear afternoons you can glimpse the Julian Alps to the north and the Adriatic foothills to the south from the same stretch of highway — a reminder of how compact Slovenia really is."
       },
       {
         "time": "17:15",
         "name": "Drop-off in Ljubljana",
         "duration": "15m",
-        "desc": "We return to the original meeting point. Your adventure is complete."
+        "desc": "We return to the original meeting point. Your adventure is complete.",
+        "more": "If you still have energy: the riverside between Triple Bridge and Cobblers' Bridge fills with locals after work — open-air bars, street musicians, late-night talks until the cafés close. For something quieter, Tivoli Park is two minutes from the center, with a forested hill and a 19th-century mansion at the top."
       }
-    ]
+    ],
+    "readMore": "Read more",
+    "showLess": "Show less"
   },
   "pricing": {
     "title": "Simple Pricing",

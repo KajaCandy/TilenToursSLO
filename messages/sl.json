@@ -33,57 +33,68 @@
         "time": "07:00",
         "name": "Prevzem v Ljubljani",
         "duration": "1h 30m vožnja",
-        "desc": "Srečamo se v Ljubljani in začnemo dan z udobno vožnjo proti goram."
+        "desc": "Srečamo se v Ljubljani in začnemo dan z udobno vožnjo proti goram.",
+        "more": "Ljubljana je ena najmanjših in najbolj prijaznih prestolnic Evrope — staro mesto se vije ob reki Ljubljanici, nad njim pa bdi grad iz 12. stoletja. Njen simbol je zmaj: legenda pravi, da je Jazon z Argonavti enega od njih ubil prav tu, na poti domov iz Kolhide. Zmaje boste našli na vsakem vogalu znamenitega Zmajskega mostu."
       },
       {
         "time": "08:30",
         "name": "Tolminska korita",
         "duration": "1h 15m",
-        "desc": "Raziščite eno od najlepših naravnih znamenitosti Slovenije, dramatično sotesko s kristalno čisto vodo."
+        "desc": "Raziščite eno od najlepših naravnih znamenitosti Slovenije, dramatično sotesko s kristalno čisto vodo.",
+        "more": "Najgloblja in najjužnejša soteska Triglavskega narodnega parka — reki Tolminka in Zadlaščica sta tu skozi apnenec izdolbli 60 metrov globoko grlo. Dante naj bi leta 1319 obiskal jamo blizu Hudičevega mostu in jo uporabil kot navdih za svoj Pekel. Poglejte gor in zagledali boste 'Medvedovo glavo', ogromno skalo, ki visi med stenami soteske že od zadnje ledene dobe."
       },
       {
         "time": "09:45",
         "name": "Razgledi Soške doline",
         "duration": "1h 30m",
-        "desc": "Ustavimo se na več razglednih točkah, da vidite slavno smaragdno reko Sočo in posnamete fotografije."
+        "desc": "Ustavimo se na več razglednih točkah, da vidite slavno smaragdno reko Sočo in posnamete fotografije.",
+        "more": "Slovenci Soči pravijo 'smaragdna lepotica' — njena neverjetna modrozelena barva izvira iz drobnih apnenčastih delcev v ledeniški vodi. Tu je potekala soška fronta prve svetovne vojne, ena najbolj krvavih front v zgodovini, kjer je padlo več kot 300.000 vojakov. Ernest Hemingway je tu leta 1918 vozil reševalna vozila in svoje izkušnje pretvoril v roman Zbogom orožje."
       },
       {
         "time": "11:15",
         "name": "Čas za sprostitev",
         "duration": "1h",
-        "desc": "Kratek premor za uživanje v naravi, fotografiranje ali preprosto sprostitev ob reki."
+        "desc": "Kratek premor za uživanje v naravi, fotografiranje ali preprosto sprostitev ob reki.",
+        "more": "Slovenci imamo izraz za umiritev: 'pridi na kavo'. Tukaj v dolini to pomeni, da nogami v 8 °C mrzli vodi prisluhneš reki. Po lokalni navadi naj v Sočo vržeš majhen kamenček — pravijo, da te bo reka vedno priklicala nazaj."
       },
       {
         "time": "12:15",
         "name": "Lokalni kosilo (neobvezno)",
         "duration": "1h",
-        "desc": "Neobvezen postanek v tradicionalni slovenski restavraciji, kjer gostje naročajo samostojno."
+        "desc": "Neobvezen postanek v tradicionalni slovenski restavraciji, kjer gostje naročajo samostojno.",
+        "more": "Slovenska kuhinja stoji na križišču: alpska, sredozemska in panonska. Poskusite joto (kislo zelje s fižolom in krompirjem), štruklje (slane ali sladke), ali kranjsko klobaso z žganci. Vse skupaj zalijte s teranom — globoko rdečim vinom, ki raste samo na železu bogati zemlji Krasa."
       },
       {
         "time": "13:15",
         "name": "Vožnja do obale",
         "duration": "1h 30m",
-        "desc": "Panoramska vožnja proti Jadranskemu morju skozi kraške pokrajine."
+        "desc": "Panoramska vožnja proti Jadranskemu morju skozi kraške pokrajine.",
+        "more": "Pot nas vodi čez Kras — apnenčasto planoto, po kateri so geologi po vsem svetu poimenovali tovrstno pokrajino. 'Kras' je danes mednarodni geološki izraz, izvira pa prav iz tega kotička Slovenije. V njem se skriva več kot 11.000 raziskanih jam, globoke vrtače in burja — mrzel veter, ki lahko doseže 200 km/h."
       },
       {
         "time": "14:45",
         "name": "Koper ali Trst",
         "duration": "1h",
-        "desc": "Sprehod po čarobnih obalnih ulicah, razgled na morje in kava ali gelato ob vodi."
+        "desc": "Sprehod po čarobnih obalnih ulicah, razgled na morje in kava ali gelato ob vodi.",
+        "more": "Glede na dan izberemo eno od dveh obalnih mest. Koper — edino slovensko pristanišče — je bil pet stoletij beneški in to še danes nosi: osrednji trg je skoraj popolna pomanjšana kopija beneškega trga svetega Marka. Trst, takoj čez italijansko mejo, je kraj, kjer je James Joyce napisal večji del Uliksesa, italijanske, slovanske in habsburške korenine pa se prepletajo v vsaki kavarni."
       },
       {
         "time": "15:45",
         "name": "Vrnitev v Ljubljano",
         "duration": "1h 30m",
-        "desc": "Sprostite se in uživajte v panoramski vožnji nazaj po polnem in nepozabnem dnevu."
+        "desc": "Sprostite se in uživajte v panoramski vožnji nazaj po polnem in nepozabnem dnevu.",
+        "more": "Pot nazaj sledi stari rimski cesti, ki je vodila iz Akvileje v Emono — rimsko ime za Ljubljano, ki ga še danes najdete na pokrovih kanalov in nalepkah piva. Ob jasnih popoldnevih lahko z istega odseka avtoceste hkrati zagledate Julijske Alpe na severu in jadranske hribe na jugu — opomnik, kako majhna Slovenija pravzaprav je."
       },
       {
         "time": "17:15",
         "name": "Odlog v Ljubljani",
         "duration": "15m",
-        "desc": "Vrnemo se na izhodiščno točko. Vaša pustolovščina je zaključena."
+        "desc": "Vrnemo se na izhodiščno točko. Vaša pustolovščina je zaključena.",
+        "more": "Če vam še ni dovolj: nabrežje med Tromostovjem in Čevljarskim mostom se po koncu dneva napolni z domačini — odprti bari, ulični glasbeniki, pogovori pozno v noč. Če iščete kaj bolj umirjenega, je park Tivoli le dve minuti stran od središča, z gozdnatim gričem in dvorcem iz 19. stoletja na vrhu."
       }
-    ]
+    ],
+    "readMore": "Več o tem",
+    "showLess": "Skrij"
   },
   "pricing": {
     "title": "Preproste cene",
