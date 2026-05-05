@@ -4,6 +4,10 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  # Vars that are intentionally exposed to the browser/HTML — not real secrets.
+  # The actual secrets (DATABASE_URL, STRIPE_SECRET_KEY, RESEND_API_KEY, etc.)
+  # are NOT in this list, so they stay protected by the scanner.
+  SECRETS_SCAN_OMIT_KEYS = "EMAIL_FROM,CLIENT_EMAIL,NEXT_PUBLIC_BASE_URL,NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,STRIPE_PUBLISHABLE_KEY"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
