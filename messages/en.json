@@ -209,5 +209,10 @@
     "eyebrow": "Real guests, real words",
     "title": "Stories from the road",
     "subtitle": "A few of the people Tilen has shown around Slovenia, in their own words."
+  },
+  "whatsapp": {
+    "tooltip": "Questions? Chat with us",
+    "aria": "Chat with us on WhatsApp",
+    "prefill": "Hi! I have a question about the Tilen Tours day trip."
   }
 }

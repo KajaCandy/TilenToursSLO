@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 type SnackChoice = "tortillas" | "sandwiches" | "yogurt" | null;
 type MusicChoice = "chill" | "upbeat" | "slovenian" | "surprise" | "silence" | null;
@@ -365,6 +366,7 @@ export default function BookPage() {
           </div>
         </form>
       </div>
+      <WhatsAppButton />
     </div>
   );
 }

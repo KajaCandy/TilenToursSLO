@@ -209,5 +209,10 @@
     "eyebrow": "Echte Gäste, echte Worte",
     "title": "Geschichten von unterwegs",
     "subtitle": "Ein paar Menschen, die Tilen durch Slowenien geführt hat - in ihren eigenen Worten."
+  },
+  "whatsapp": {
+    "tooltip": "Fragen? Schreiben Sie uns",
+    "aria": "Chatten Sie mit uns auf WhatsApp",
+    "prefill": "Hallo! Ich habe eine Frage zur Tagestour von Tilen Tours."
   }
 }

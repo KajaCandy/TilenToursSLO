@@ -8,6 +8,7 @@ import HeroParallax from "@/components/HeroParallax";
 import ItineraryTimeline from "@/components/ItineraryTimeline";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import Reviews from "@/components/Reviews";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function HomePage() {
   const t = useTranslations();
@@ -187,16 +188,31 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="bg-black py-12 px-4">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-start gap-6">
           <div>
             <p className="font-display text-beige-100 text-lg">Tilen Tours Slovenia</p>
             <p className="text-beige-500 text-sm">{t("footer.tagline")}</p>
           </div>
-          <p className="text-beige-600 text-xs">© {new Date().getFullYear()} {t("footer.rights")}</p>
+          <div className="flex flex-col sm:items-end gap-1 text-sm">
+            <a href="mailto:info@tilen-tours.com" className="text-beige-300 hover:text-beige-100 transition-colors inline-flex items-center gap-2">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24" aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              info@tilen-tours.com
+            </a>
+            <a href="https://wa.me/38640842594" target="_blank" rel="noopener noreferrer" className="text-beige-300 hover:text-beige-100 transition-colors inline-flex items-center gap-2">
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 32 32" aria-hidden>
+                <path d="M16.003 3C9.374 3 4 8.374 4 15.003c0 2.385.69 4.61 1.882 6.482L4 29l7.713-1.836a11.95 11.95 0 0 0 4.29.787h.005C22.629 27.951 28 22.578 28 15.95 28 8.374 22.629 3 16.003 3Zm5.46 14.656c-.298-.149-1.766-.872-2.04-.972-.273-.099-.471-.149-.67.149-.198.297-.768.971-.942 1.17-.174.198-.347.223-.645.075-.297-.149-1.255-.463-2.39-1.475-.884-.787-1.48-1.76-1.654-2.057-.173-.298-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.074-.149-.67-1.616-.918-2.213-.241-.58-.487-.501-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.521.074-.793.372-.273.298-1.041 1.018-1.041 2.482 0 1.465 1.066 2.881 1.215 3.08.149.198 2.097 3.202 5.082 4.491.71.307 1.264.49 1.696.626.713.227 1.362.195 1.875.118.572-.085 1.766-.722 2.015-1.42.249-.697.249-1.295.174-1.42-.074-.124-.272-.198-.57-.347Z" />
+              </svg>
+              +386 40 842 594
+            </a>
+            <p className="text-beige-600 text-xs mt-2">© {new Date().getFullYear()} {t("footer.rights")}</p>
+          </div>
         </div>
       </footer>
 
       <ChatWidget />
+      <WhatsAppButton />
     </div>
   );
 }

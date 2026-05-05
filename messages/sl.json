@@ -209,5 +209,10 @@
     "eyebrow": "Pravi gostje, pravi občutki",
     "title": "Zgodbe s poti",
     "subtitle": "Nekaj ljudi, ki jih je Tilen popeljal po Sloveniji - povedano z njihovimi besedami."
+  },
+  "whatsapp": {
+    "tooltip": "Vprašanja? Pišite nam",
+    "aria": "Klepetajte z nami na WhatsAppu",
+    "prefill": "Pozdravljeni! Imam vprašanje glede izleta s Tilen Tours."
   }
 }
