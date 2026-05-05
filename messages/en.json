@@ -166,12 +166,6 @@
     "snack": "Homemade snack",
     "dog": "Dog kennel"
   },
-  "chat": {
-    "title": "Ask us anything",
-    "placeholder": "What would you like to know?",
-    "send": "Send",
-    "greeting": "Hi! I'm here to answer your questions about the Tilen Tours day trip. What would you like to know?"
-  },
   "footer": {
     "tagline": "Discover Slovenia in a day.",
     "contact": "Contact",
@@ -214,5 +208,11 @@
     "tooltip": "Questions? Chat with us",
     "aria": "Chat with us on WhatsApp",
     "prefill": "Hi! I have a question about the Tilen Tours day trip."
+  },
+  "contact": {
+    "title": "Contact Tilen for more info",
+    "subtitle": "Custom dates, dietary needs, group questions — Tilen will reply personally, usually within a few hours.",
+    "whatsapp": "Message on WhatsApp",
+    "email": "Send an email"
   }
 }

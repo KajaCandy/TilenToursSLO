@@ -166,12 +166,6 @@
     "snack": "Spuntino fatto in casa",
     "dog": "Trasportino per cani"
   },
-  "chat": {
-    "title": "Chiedici qualcosa",
-    "placeholder": "Cosa vorresti sapere?",
-    "send": "Invia",
-    "greeting": "Ciao! Sono qui per rispondere alle tue domande sul tour giornaliero di Tilen Tours. Cosa vorresti sapere?"
-  },
   "footer": {
     "tagline": "Scopri la Slovenia in un giorno.",
     "contact": "Contatto",
@@ -214,5 +208,11 @@
     "tooltip": "Domande? Scrivici",
     "aria": "Chatta con noi su WhatsApp",
     "prefill": "Ciao! Ho una domanda sul tour di Tilen Tours."
+  },
+  "contact": {
+    "title": "Contatta Tilen per maggiori informazioni",
+    "subtitle": "Date personalizzate, esigenze alimentari, domande sul gruppo — Tilen risponde personalmente, di solito in poche ore.",
+    "whatsapp": "Scrivi su WhatsApp",
+    "email": "Invia un'email"
   }
 }

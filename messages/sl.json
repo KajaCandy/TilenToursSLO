@@ -166,12 +166,6 @@
     "snack": "Domač prigrizek",
     "dog": "Pasji boks"
   },
-  "chat": {
-    "title": "Vprašajte nas",
-    "placeholder": "Kaj bi radi vedeli?",
-    "send": "Pošlji",
-    "greeting": "Živjo! Tu sem, da odgovorim na vaša vprašanja o enodnevnem izletu Tilen Tours. Kaj vas zanima?"
-  },
   "footer": {
     "tagline": "Odkrijte Slovenijo v enem dnevu.",
     "contact": "Kontakt",
@@ -214,5 +208,11 @@
     "tooltip": "Vprašanja? Pišite nam",
     "aria": "Klepetajte z nami na WhatsAppu",
     "prefill": "Pozdravljeni! Imam vprašanje glede izleta s Tilen Tours."
+  },
+  "contact": {
+    "title": "Vprašajte Tilna za več informacij",
+    "subtitle": "Drugi datumi, prehranske posebnosti, vprašanja o skupini — Tilen vam osebno odgovori, običajno v nekaj urah.",
+    "whatsapp": "Sporočilo prek WhatsAppa",
+    "email": "Pošlji e-pošto"
   }
 }

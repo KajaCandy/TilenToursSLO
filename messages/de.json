@@ -166,12 +166,6 @@
     "snack": "Hausgemachter Snack",
     "dog": "Hundetransportbox"
   },
-  "chat": {
-    "title": "Fragen Sie uns",
-    "placeholder": "Was möchten Sie wissen?",
-    "send": "Senden",
-    "greeting": "Hallo! Ich bin hier, um Ihre Fragen zur Tagesreise von Tilen Tours zu beantworten. Was möchten Sie wissen?"
-  },
   "footer": {
     "tagline": "Entdecken Sie Slowenien an einem Tag.",
     "contact": "Kontakt",
@@ -214,5 +208,11 @@
     "tooltip": "Fragen? Schreiben Sie uns",
     "aria": "Chatten Sie mit uns auf WhatsApp",
     "prefill": "Hallo! Ich habe eine Frage zur Tagestour von Tilen Tours."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Tilen für mehr Infos",
+    "subtitle": "Andere Termine, Ernährungswünsche, Gruppenfragen — Tilen antwortet persönlich, meist innerhalb weniger Stunden.",
+    "whatsapp": "WhatsApp-Nachricht",
+    "email": "E-Mail senden"
   }
 }
