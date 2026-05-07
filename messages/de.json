@@ -197,7 +197,10 @@
     "bookingStatus": "Status",
     "statusPaid": "Bezahlt",
     "statusPending": "Ausstehend",
-    "bookingMusic": "Musik"
+    "bookingMusic": "Musik",
+    "deleteButton": "Buchung löschen",
+    "deleteConfirm": "Buchung von {label} löschen? Dies kann nicht rückgängig gemacht werden.",
+    "deleteFailed": "Buchung konnte nicht gelöscht werden. Bitte erneut versuchen."
   },
   "reviews": {
     "eyebrow": "Echte Gäste, echte Worte",

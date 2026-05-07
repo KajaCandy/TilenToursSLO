@@ -197,7 +197,10 @@
     "bookingStatus": "Status",
     "statusPaid": "Paid",
     "statusPending": "Pending",
-    "bookingMusic": "Music"
+    "bookingMusic": "Music",
+    "deleteButton": "Delete booking",
+    "deleteConfirm": "Delete the booking for {label}? This cannot be undone.",
+    "deleteFailed": "Could not delete the booking. Try again."
   },
   "reviews": {
     "eyebrow": "Real guests, real words",

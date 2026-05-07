@@ -26,6 +26,7 @@ export default function DashboardPage() {
   const router = useRouter();
   const [bookings, setBookings] = useState<Booking[]>([]);
   const [loading, setLoading] = useState(true);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
 
   useEffect(() => {
     fetch("/api/admin/bookings")
@@ -36,6 +37,22 @@ export default function DashboardPage() {
       .then((d) => d && setBookings(d))
       .finally(() => setLoading(false));
   }, [router]);
+
+  async function deleteBooking(b: Booking) {
+    const label = `${b.customerName} · ${new Date(b.date + "T12:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}`;
+    if (!confirm(t("deleteConfirm", { label }))) return;
+    setDeletingId(b.id);
+    try {
+      const res = await fetch(`/api/admin/bookings/${b.id}`, { method: "DELETE" });
+      if (res.status === 401) { router.push("/en/admin"); return; }
+      if (!res.ok) throw new Error("Delete failed");
+      setBookings((prev) => prev.filter((x) => x.id !== b.id));
+    } catch {
+      alert(t("deleteFailed"));
+    } finally {
+      setDeletingId(null);
+    }
+  }
 
   const today = new Date().toISOString().split("T")[0];
   const upcoming = bookings.filter((b) => b.date >= today && b.status === "paid").length;
@@ -72,6 +89,7 @@ export default function DashboardPage() {
                 {[t("bookingDate"), t("bookingPeople"), t("bookingCustomer"), t("bookingExtras"), t("bookingTotal"), t("bookingStatus")].map((h) => (
                   <th key={h} className="px-4 py-3 text-left text-xs font-medium text-forest-400 uppercase tracking-wider">{h}</th>
                 ))}
+                <th className="px-4 py-3 w-10" />
               </tr>
             </thead>
             <tbody className="divide-y divide-beige-50">
@@ -108,6 +126,20 @@ export default function DashboardPage() {
                       <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-medium ${b.status === "paid" ? "bg-forest-100 text-forest-700" : "bg-beige-100 text-beige-600"}`}>
                         {b.status === "paid" ? t("statusPaid") : t("statusPending")}
                       </span>
+                    </td>
+                    <td className="px-4 py-4 text-right">
+                      <button
+                        type="button"
+                        onClick={() => deleteBooking(b)}
+                        disabled={deletingId === b.id}
+                        title={t("deleteButton")}
+                        aria-label={t("deleteButton")}
+                        className="text-forest-400 hover:text-red-600 disabled:opacity-40 transition-colors"
+                      >
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24" aria-hidden>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6M1 7h22M9 7V4a1 1 0 011-1h4a1 1 0 011 1v3" />
+                        </svg>
+                      </button>
                     </td>
                   </tr>
                 );

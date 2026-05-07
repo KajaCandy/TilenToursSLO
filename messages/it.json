@@ -197,7 +197,10 @@
     "bookingStatus": "Stato",
     "statusPaid": "Pagato",
     "statusPending": "In attesa",
-    "bookingMusic": "Musica"
+    "bookingMusic": "Musica",
+    "deleteButton": "Elimina prenotazione",
+    "deleteConfirm": "Eliminare la prenotazione di {label}? Operazione irreversibile.",
+    "deleteFailed": "Impossibile eliminare la prenotazione. Riprova."
   },
   "reviews": {
     "eyebrow": "Ospiti veri, parole vere",

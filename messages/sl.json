@@ -197,7 +197,10 @@
     "bookingStatus": "Status",
     "statusPaid": "Plačano",
     "statusPending": "V čakanju",
-    "bookingMusic": "Glasba"
+    "bookingMusic": "Glasba",
+    "deleteButton": "Izbriši rezervacijo",
+    "deleteConfirm": "Izbrišem rezervacijo {label}? Tega ni mogoče razveljaviti.",
+    "deleteFailed": "Rezervacije ni bilo mogoče izbrisati. Poskusite znova."
   },
   "reviews": {
     "eyebrow": "Pravi gostje, pravi občutki",
