@@ -56,11 +56,41 @@ function buildExtrasText(data: BookingEmailData) {
   return extras.length ? extras.join(", ") : "None";
 }
 
+function senderAddress() {
+  const addr = process.env.EMAIL_FROM!;
+  // Wrap in friendly display-name format if the env var is just the bare address.
+  return addr.includes("<") ? addr : `Tilen Tours <${addr}>`;
+}
+
+function replyToAddress() {
+  const addr = process.env.EMAIL_FROM!;
+  return addr.includes("<") ? addr.replace(/.*<(.+)>.*/, "$1") : addr;
+}
+
 export async function sendCustomerConfirmation(data: BookingEmailData) {
+  const replyTo = replyToAddress();
+  const extras = buildExtrasText(data);
+  const text = `Hi ${data.customerName},
+
+Your Tilen Tours booking is confirmed.
+
+Date: ${formatDate(data.date)}
+Group: ${data.numPeople} people
+Add-ons: ${extras}
+${data.notes ? `Notes: ${data.notes}\n` : ""}Total paid: €${data.totalPrice}
+
+Tilen will contact you before the tour with pickup details. Reply to this email with any questions, or message us on WhatsApp at +386 40 842 594.
+
+— Tilen Tours Slovenia
+Ljubljana, Slovenia
+https://tilen-tours.com`;
+
   await getResend().emails.send({
-    from: process.env.EMAIL_FROM!,
+    from: senderAddress(),
     to: data.customerEmail,
-    subject: `Booking Confirmed: Tilen Tours Slovenia · ${formatDate(data.date)}`,
+    replyTo,
+    subject: `Your Tilen Tours booking · ${formatDate(data.date)}`,
+    text,
     html: `
       <div style="font-family:sans-serif;max-width:600px;margin:0 auto;color:#1a1a1a">
         <div style="background:#2d5a27;padding:32px;text-align:center">
@@ -107,10 +137,23 @@ export async function sendCustomerConfirmation(data: BookingEmailData) {
 }
 
 export async function sendClientNotification(data: BookingEmailData) {
+  const extras = buildExtrasText(data);
+  const text = `New booking received.
+
+Date: ${formatDate(data.date)}
+People: ${data.numPeople}
+Customer: ${data.customerName}
+Email: ${data.customerEmail}
+Phone: ${data.customerPhone}
+Add-ons: ${extras}
+${data.notes ? `Notes: ${data.notes}\n` : ""}Total: €${data.totalPrice}`;
+
   await getResend().emails.send({
-    from: process.env.EMAIL_FROM!,
+    from: senderAddress(),
     to: process.env.CLIENT_EMAIL!,
-    subject: `New Booking: ${formatDate(data.date)} · ${data.numPeople} people`,
+    replyTo: data.customerEmail,
+    subject: `New booking · ${formatDate(data.date)} · ${data.numPeople} people`,
+    text,
     html: `
       <div style="font-family:sans-serif;max-width:600px;margin:0 auto;color:#1a1a1a">
         <div style="background:#2d5a27;padding:24px">
