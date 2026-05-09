@@ -9,12 +9,75 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import Reviews from "@/components/Reviews";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
+const SITE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://tilen-tours.com";
+
 export default function HomePage() {
   const t = useTranslations();
   const { locale } = useParams<{ locale: string }>();
 
+  const faqItems = (t.raw("faq.items") as { q: string; a: string }[]) ?? [];
+  const tripJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": t("seo.title"),
+    "description": t("seo.description"),
+    "image": `${SITE_URL}/og-image.jpg`,
+    "url": `${SITE_URL}/${locale}`,
+    "touristType": ["Couples", "Friends", "Solo travellers", "Families"],
+    "itinerary": {
+      "@type": "ItemList",
+      "itemListElement": [
+        { "@type": "TouristAttraction", "name": "Ljubljana, Slovenia" },
+        { "@type": "TouristAttraction", "name": "Soča Valley, Slovenia" },
+        { "@type": "TouristAttraction", "name": "Adriatic Coast, Slovenia" },
+      ],
+    },
+    "provider": {
+      "@type": "TravelAgency",
+      "name": "Tilen Tours",
+      "url": SITE_URL,
+      "telephone": "+38640842594",
+      "email": "info@tilen-tours.com",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Unec 117",
+        "addressLocality": "Rakek",
+        "postalCode": "1381",
+        "addressCountry": "SI",
+      },
+      "vatID": "SI34826696",
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "130",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "url": `${SITE_URL}/${locale}/book`,
+      "validFrom": new Date().toISOString().slice(0, 10),
+    },
+  };
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(({ q, a }) => ({
+      "@type": "Question",
+      "name": q,
+      "acceptedAnswer": { "@type": "Answer", "text": a },
+    })),
+  };
+
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(tripJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-forest-950/90 backdrop-blur-sm border-b border-forest-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
@@ -222,6 +285,27 @@ export default function HomePage() {
                 <p className="text-beige-400 text-xs leading-relaxed">{t("pricing.note")}</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-24 px-4 bg-beige-50 border-t border-beige-200">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-display text-4xl text-forest-900 mb-10 text-center">{t("faq.title")}</h2>
+          <div className="space-y-3">
+            {faqItems.map((item, i) => (
+              <details
+                key={i}
+                className="group bg-white rounded-xl border border-beige-200 px-5 py-4 open:shadow-sm"
+              >
+                <summary className="cursor-pointer list-none flex items-center justify-between gap-4 font-medium text-forest-900">
+                  <span>{item.q}</span>
+                  <span className="text-forest-500 text-xl leading-none transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-forest-700 text-sm leading-relaxed">{item.a}</p>
+              </details>
+            ))}
           </div>
         </div>
       </section>

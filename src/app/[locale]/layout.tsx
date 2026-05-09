@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import CookieBanner from "@/components/CookieBanner";
@@ -12,30 +12,50 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 
 const SITE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://tilen-tours.com";
 
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: "Tilen Tours Slovenia: One Day, Three Worlds",
-  description: "Private guided day tour from Ljubljana through the Soča Valley to the Adriatic coast. Small group, local guide, maximum 4 people.",
-  icons: {
-    icon: [
-      { url: "/logo.svg", type: "image/svg+xml" },
-    ],
-    apple: "/logo.svg",
-  },
-  openGraph: {
-    type: "website",
-    siteName: "Tilen Tours Slovenia",
-    title: "Tilen Tours Slovenia: One Day, Three Worlds",
-    description: "Private guided day tour from Ljubljana through the Soča Valley to the Adriatic coast. Small group, max 4 people.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Tilen Tours DS7 SUV at the Soča river" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Tilen Tours Slovenia: One Day, Three Worlds",
-    description: "Private guided day tour: Ljubljana → Soča Valley → Adriatic coast. Max 4 people.",
-    images: ["/og-image.jpg"],
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo" });
+
+  const languages: Record<string, string> = { "x-default": `${SITE_URL}/en` };
+  for (const l of routing.locales) languages[l] = `${SITE_URL}/${l}`;
+
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: `${SITE_URL}/${locale}`,
+      languages,
+    },
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+        { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
+      ],
+      apple: "/apple-touch-icon.png",
+    },
+    openGraph: {
+      type: "website",
+      siteName: "Tilen Tours Slovenia",
+      title: t("title"),
+      description: t("description"),
+      url: `${SITE_URL}/${locale}`,
+      locale,
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Tilen Tours DS7 SUV at the Soča river" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("descriptionShort"),
+      images: ["/og-image.jpg"],
+    },
+  };
+}
 
 export default async function LocaleLayout({
   children,

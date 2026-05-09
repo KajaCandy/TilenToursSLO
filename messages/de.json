@@ -240,5 +240,51 @@
     "body": "Wir verwenden nur technisch notwendige Cookies. Kein Tracking, keine Analyse.",
     "learnMore": "Mehr erfahren",
     "dismiss": "Verstanden"
+  },
+  "seo": {
+    "title": "Tilen Tours Slowenien: Drei Welten an einem Tag",
+    "description": "Private geführte Tagestour von Ljubljana durch das Soča-Tal bis zur Adriaküste. Kleine Gruppe, lokaler Guide, maximal 4 Personen.",
+    "descriptionShort": "Private Tagestour: Ljubljana, Soča-Tal, Adria. Max. 4 Personen."
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Wie lange dauert die Tour?",
+        "a": "Etwa 10 Stunden, von der Abholung in Ljubljana um 07:00 Uhr bis zur Rückkehr um 17:15 Uhr."
+      },
+      {
+        "q": "Wo beginnt und endet die Tour?",
+        "a": "Tilen holt Sie an einem vereinbarten Treffpunkt in Ljubljana ab und bringt Sie am Ende des Tages dorthin zurück."
+      },
+      {
+        "q": "Wie groß ist die maximale Gruppe?",
+        "a": "Maximal 4 Gäste. Die Tour ist immer privat; Sie werden nicht mit anderen Gruppen zusammengelegt."
+      },
+      {
+        "q": "Was kostet die Tour?",
+        "a": "130 EUR pro Person. Der optionale hausgemachte Snack kostet zusätzlich 10 EUR pro Person. Die Hundebox ist kostenlos."
+      },
+      {
+        "q": "Welche Sprachen spricht der Guide?",
+        "a": "Slowenisch und Englisch."
+      },
+      {
+        "q": "Ist Mittagessen inbegriffen?",
+        "a": "Nein. Wir halten an einem lokalen Restaurant, wo jeder Gast individuell bestellt. Der optionale hausgemachte Snack zu 10 EUR/Person ist separat erhältlich."
+      },
+      {
+        "q": "Darf ich einen Hund mitbringen?",
+        "a": "Ja, eine Hundetransportbox wird kostenlos bereitgestellt. Bitte erwähnen Sie den Hund bei der Buchung."
+      },
+      {
+        "q": "Wie sind die Stornierungsbedingungen?",
+        "a": "4 oder mehr Tage vor der Tour: 100 % Rückerstattung. Weniger als 4 Tage davor: 70 % Rückerstattung. Wenn Tilen Tours absagen muss (z. B. Unwetter, Fahrzeugproblem), erhalten Sie eine vollständige Rückerstattung oder können umbuchen."
+      },
+      {
+        "q": "Wie weit im Voraus muss ich buchen?",
+        "a": "Buchungen müssen mindestens 2 Tage im Voraus über tilen-tours.com erfolgen."
+      }
+    ]
   }
 }

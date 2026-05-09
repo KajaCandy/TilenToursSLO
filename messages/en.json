@@ -240,5 +240,51 @@
     "body": "We use only essential cookies to make this site work. No tracking, no analytics.",
     "learnMore": "Learn more",
     "dismiss": "Got it"
+  },
+  "seo": {
+    "title": "Tilen Tours Slovenia: One Day, Three Worlds",
+    "description": "Private guided day tour from Ljubljana through the Soča Valley to the Adriatic coast. Small group, local guide, maximum 4 people.",
+    "descriptionShort": "Private day tour: Ljubljana, Soča Valley, Adriatic. Max 4 people."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "How long does the tour take?",
+        "a": "Approximately 10 hours, from 07:00 pickup in Ljubljana until 17:15 return."
+      },
+      {
+        "q": "Where does the tour start and end?",
+        "a": "Tilen picks you up at an agreed Ljubljana meeting point and returns you there at the end of the day."
+      },
+      {
+        "q": "What is the maximum group size?",
+        "a": "Maximum 4 guests. The tour is always private; you will not be combined with other groups."
+      },
+      {
+        "q": "What does the tour cost?",
+        "a": "€130 per person. The optional homemade snack is +€10 per person. The dog kennel is free."
+      },
+      {
+        "q": "What languages does the guide speak?",
+        "a": "Slovenian and English."
+      },
+      {
+        "q": "Is lunch included?",
+        "a": "No. We stop at a local restaurant where guests order individually. The optional homemade snack at €10/person is separate."
+      },
+      {
+        "q": "Can I bring a dog?",
+        "a": "Yes, a dog transport kennel is provided free of charge. Please mention the dog at booking."
+      },
+      {
+        "q": "What is the cancellation policy?",
+        "a": "4 or more days before the tour: 100% refund. Less than 4 days before: 70% refund. If Tilen Tours has to cancel (e.g. severe weather, vehicle issue), you receive a full refund or can reschedule."
+      },
+      {
+        "q": "How far in advance must I book?",
+        "a": "Bookings must be made at least 2 days in advance through tilen-tours.com."
+      }
+    ]
   }
 }

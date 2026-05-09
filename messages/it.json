@@ -240,5 +240,51 @@
     "body": "Utilizziamo solo cookie essenziali per il funzionamento del sito. Nessun tracciamento, nessuna analisi.",
     "learnMore": "Scopri di più",
     "dismiss": "Ho capito"
+  },
+  "seo": {
+    "title": "Tilen Tours Slovenia: Tre mondi in un giorno",
+    "description": "Tour privato guidato di un giorno da Lubiana attraverso la valle dell'Isonzo fino alla costa adriatica. Piccolo gruppo, guida locale, massimo 4 persone.",
+    "descriptionShort": "Tour privato: Lubiana, valle Isonzo, Adriatico. Max 4 persone."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Quanto dura il tour?",
+        "a": "Circa 10 ore, dal ritiro a Lubiana alle 07:00 fino al rientro alle 17:15."
+      },
+      {
+        "q": "Dove inizia e finisce il tour?",
+        "a": "Tilen ti viene a prendere in un punto concordato a Lubiana e ti riaccompagna lì alla fine della giornata."
+      },
+      {
+        "q": "Qual è la dimensione massima del gruppo?",
+        "a": "Massimo 4 ospiti. Il tour è sempre privato; non sarete uniti ad altri gruppi."
+      },
+      {
+        "q": "Quanto costa il tour?",
+        "a": "130 EUR a persona. Lo snack fatto in casa opzionale costa 10 EUR a persona in più. Il trasportino per cani è gratuito."
+      },
+      {
+        "q": "Che lingue parla la guida?",
+        "a": "Sloveno e inglese."
+      },
+      {
+        "q": "Il pranzo è incluso?",
+        "a": "No. Ci fermiamo in un ristorante locale dove ogni ospite ordina individualmente. Lo snack fatto in casa a 10 EUR/persona è opzionale e separato."
+      },
+      {
+        "q": "Posso portare un cane?",
+        "a": "Sì, un trasportino per cani è fornito gratuitamente. Si prega di indicare il cane al momento della prenotazione."
+      },
+      {
+        "q": "Qual è la politica di cancellazione?",
+        "a": "4 o più giorni prima del tour: rimborso del 100%. Meno di 4 giorni prima: rimborso del 70%. Se Tilen Tours deve cancellare (maltempo, problemi al veicolo), riceverai un rimborso completo o potrai riprogrammare."
+      },
+      {
+        "q": "Con quanto anticipo devo prenotare?",
+        "a": "Le prenotazioni devono essere effettuate almeno 2 giorni prima tramite tilen-tours.com."
+      }
+    ]
   }
 }

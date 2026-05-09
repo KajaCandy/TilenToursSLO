@@ -240,5 +240,51 @@
     "body": "Uporabljamo samo nujno potrebne piškotke za delovanje strani. Brez sledenja in analitike.",
     "learnMore": "Več o tem",
     "dismiss": "V redu"
+  },
+  "seo": {
+    "title": "Tilen Tours Slovenija: Trije svetovi v enem dnevu",
+    "description": "Zasebni vodeni izlet iz Ljubljane skozi dolino Soče do jadranske obale. Manjša skupina, lokalni vodnik, največ 4 osebe.",
+    "descriptionShort": "Zasebni izlet: Ljubljana, dolina Soče, Jadran. Največ 4 osebe."
+  },
+  "faq": {
+    "title": "Pogosta vprašanja",
+    "items": [
+      {
+        "q": "Koliko časa traja izlet?",
+        "a": "Približno 10 ur, od prevzema v Ljubljani ob 07:00 do vrnitve ob 17:15."
+      },
+      {
+        "q": "Kje se izlet začne in konča?",
+        "a": "Tilen vas prevzame na dogovorjeni lokaciji v Ljubljani in vas tja na koncu dneva tudi vrne."
+      },
+      {
+        "q": "Kakšno je največje število potnikov?",
+        "a": "Največ 4 gostje. Izlet je vedno zaseben; ne združujemo vas z drugimi skupinami."
+      },
+      {
+        "q": "Koliko stane izlet?",
+        "a": "130 EUR na osebo. Domač prigrizek po izbiri stane dodatnih 10 EUR na osebo. Pasja kletka je brezplačna."
+      },
+      {
+        "q": "V katerih jezikih govori vodnik?",
+        "a": "Slovensko in angleško."
+      },
+      {
+        "q": "Je kosilo vključeno?",
+        "a": "Ne. Ustavimo se v lokalni restavraciji, kjer vsak gost naroči po svoji izbiri. Domač prigrizek po 10 EUR/osebo je ločeno na voljo."
+      },
+      {
+        "q": "Lahko pripeljem psa?",
+        "a": "Da, na voljo je brezplačna pasja transportna kletka. Prosimo, da psa omenite ob rezervaciji."
+      },
+      {
+        "q": "Kakšen je rok za odpoved?",
+        "a": "Štiri dni ali več pred izletom: 100 % vračilo. Manj kot 4 dni pred izletom: 70 % vračilo. Če izlet odpove Tilen Tours (npr. neurje, okvara vozila), prejmete polno vračilo ali drug termin."
+      },
+      {
+        "q": "Koliko vnaprej moram rezervirati?",
+        "a": "Rezervacije so možne najmanj 2 dni vnaprej prek tilen-tours.com."
+      }
+    ]
   }
 }
