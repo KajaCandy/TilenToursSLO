@@ -175,6 +175,20 @@
     "terms": "Bedingungen",
     "business": "Tilen Godeša s.p. · Unec 117, 1381 Rakek · USt-IdNr. SI34826696"
   },
+  "vehicle": {
+    "title": "Ihr Fahrzeug",
+    "subtitle": "Sie reisen in Tilens DS7 Crossback - einem französischen Premium-SUV mit ruhigen Lederinterieurs, Klimaanlage und Panoramafenstern für die Aussicht auf das Soča-Tal.",
+    "feat1Title": "Premium-SUV",
+    "feat1Desc": "Ruhige, komfortable Fahrt auf den langen Strecken zwischen Bergen und Küste.",
+    "feat2Title": "Viel Platz",
+    "feat2Desc": "Bequeme Sitze für bis zu 4 Gäste mit großzügigem Gepäckraum.",
+    "feat3Title": "Klimatisiert",
+    "feat3Desc": "Im Sommer kühl, im Winter warm - die Fahrt ist Teil des Erlebnisses.",
+    "altExterior": "DS7 SUV an der Soča",
+    "altSide": "DS7 SUV von der Seite an der Soča",
+    "altInterior": "Armaturenbrett des DS7",
+    "altSeats": "Ledersitze des DS7"
+  },
   "admin": {
     "login": "Admin-Anmeldung",
     "password": "Passwort",
@@ -217,7 +231,7 @@
   },
   "contact": {
     "title": "Kontaktieren Sie Tilen für mehr Infos",
-    "subtitle": "Andere Termine, Ernährungswünsche, Gruppenfragen — Tilen antwortet persönlich, meist innerhalb weniger Stunden.",
+    "subtitle": "Andere Termine, Ernährungswünsche, Gruppenfragen - Tilen antwortet persönlich, meist innerhalb weniger Stunden.",
     "whatsapp": "WhatsApp-Nachricht",
     "email": "E-Mail senden"
   },

@@ -25,18 +25,18 @@ export default function PrivacyIT() {
 
       <h2>2. Perché li raccogliamo (base giuridica)</h2>
       <ul>
-        <li>Per organizzare ed erogare il tour prenotato — <em>esecuzione di un contratto</em>, art. 6(1)(b) GDPR.</li>
-        <li>Per inviare conferme di prenotazione e informazioni pre-tour via e-mail — <em>esecuzione di un contratto</em>.</li>
-        <li>Per adempiere agli obblighi fiscali e contabili sloveni, che richiedono la conservazione dei documenti contabili per 10 anni — <em>obbligo di legge</em>, art. 6(1)(c) GDPR.</li>
+        <li>Per organizzare ed erogare il tour prenotato - <em>esecuzione di un contratto</em>, art. 6(1)(b) GDPR.</li>
+        <li>Per inviare conferme di prenotazione e informazioni pre-tour via e-mail - <em>esecuzione di un contratto</em>.</li>
+        <li>Per adempiere agli obblighi fiscali e contabili sloveni, che richiedono la conservazione dei documenti contabili per 10 anni - <em>obbligo di legge</em>, art. 6(1)(c) GDPR.</li>
       </ul>
 
       <h2>3. Destinatari dei dati</h2>
       <p>Utilizziamo i seguenti responsabili del trattamento, tutti vincolati da accordi conformi al GDPR:</p>
       <ul>
-        <li><strong>Stripe Payments Europe Ltd</strong> — elaborazione dei pagamenti</li>
-        <li><strong>Resend, Inc.</strong> — invio di e-mail transazionali</li>
-        <li><strong>Neon, Inc.</strong> — hosting del database (regione UE)</li>
-        <li><strong>Netlify, Inc.</strong> — hosting del sito web</li>
+        <li><strong>Stripe Payments Europe Ltd</strong> - elaborazione dei pagamenti</li>
+        <li><strong>Resend, Inc.</strong> - invio di e-mail transazionali</li>
+        <li><strong>Neon, Inc.</strong> - hosting del database (regione UE)</li>
+        <li><strong>Netlify, Inc.</strong> - hosting del sito web</li>
       </ul>
       <p>Non vendiamo i suoi dati né li condividiamo per fini di marketing.</p>
 
@@ -61,9 +61,9 @@ export default function PrivacyIT() {
       <h2>6. Cookie</h2>
       <p>Utilizziamo solo cookie strettamente necessari:</p>
       <ul>
-        <li><strong>Preferenza di lingua</strong> — memorizza la lingua scelta (impostato da next-intl).</li>
-        <li><strong>Sessione di pagamento Stripe</strong> — impostato da checkout.stripe.com solo durante il pagamento.</li>
-        <li><strong>Autenticazione amministratore</strong> — solo per utenti amministratori autorizzati.</li>
+        <li><strong>Preferenza di lingua</strong> - memorizza la lingua scelta (impostato da next-intl).</li>
+        <li><strong>Sessione di pagamento Stripe</strong> - impostato da checkout.stripe.com solo durante il pagamento.</li>
+        <li><strong>Autenticazione amministratore</strong> - solo per utenti amministratori autorizzati.</li>
       </ul>
       <p>Non utilizziamo cookie di tracciamento, analisi o pubblicità. I cookie strettamente necessari non richiedono consenso preventivo ai sensi del GDPR e della direttiva ePrivacy.</p>
 

@@ -175,6 +175,20 @@
     "terms": "Condizioni",
     "business": "Tilen Godeša s.p. · Unec 117, 1381 Rakek · P. IVA SI34826696"
   },
+  "vehicle": {
+    "title": "Il tuo veicolo",
+    "subtitle": "Viaggerai sulla DS7 Crossback di Tilen - un SUV premium francese con interni in pelle silenziosi, climatizzatore e finestrini panoramici per ammirare la valle dell'Isonzo.",
+    "feat1Title": "SUV premium",
+    "feat1Desc": "Una guida fluida e silenziosa sui lunghi tragitti tra montagna e costa.",
+    "feat2Title": "Tanto spazio",
+    "feat2Desc": "Sedili comodi per un massimo di 4 ospiti con ampio spazio per i bagagli.",
+    "feat3Title": "Climatizzato",
+    "feat3Desc": "Fresco d'estate, caldo d'inverno - il viaggio è parte dell'esperienza.",
+    "altExterior": "SUV DS7 al fiume Isonzo",
+    "altSide": "SUV DS7 di profilo all'Isonzo",
+    "altInterior": "Interno cruscotto del DS7",
+    "altSeats": "Sedili in pelle del DS7"
+  },
   "admin": {
     "login": "Accesso Admin",
     "password": "Password",
@@ -217,7 +231,7 @@
   },
   "contact": {
     "title": "Contatta Tilen per maggiori informazioni",
-    "subtitle": "Date personalizzate, esigenze alimentari, domande sul gruppo — Tilen risponde personalmente, di solito in poche ore.",
+    "subtitle": "Date personalizzate, esigenze alimentari, domande sul gruppo - Tilen risponde personalmente, di solito in poche ore.",
     "whatsapp": "Scrivi su WhatsApp",
     "email": "Invia un'email"
   },

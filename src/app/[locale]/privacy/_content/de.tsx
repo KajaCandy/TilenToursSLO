@@ -25,18 +25,18 @@ export default function PrivacyDE() {
 
       <h2>2. Verarbeitungszwecke (Rechtsgrundlage)</h2>
       <ul>
-        <li>Vorbereitung und Durchführung der gebuchten Tour — <em>Vertragserfüllung</em>, Art. 6 Abs. 1 lit. b DSGVO.</li>
-        <li>Versand von Buchungsbestätigungen und Vor-Tour-Informationen per E-Mail — <em>Vertragserfüllung</em>.</li>
-        <li>Erfüllung slowenischer Steuer- und Buchhaltungspflichten (10 Jahre Aufbewahrung von Rechnungen) — <em>rechtliche Verpflichtung</em>, Art. 6 Abs. 1 lit. c DSGVO.</li>
+        <li>Vorbereitung und Durchführung der gebuchten Tour - <em>Vertragserfüllung</em>, Art. 6 Abs. 1 lit. b DSGVO.</li>
+        <li>Versand von Buchungsbestätigungen und Vor-Tour-Informationen per E-Mail - <em>Vertragserfüllung</em>.</li>
+        <li>Erfüllung slowenischer Steuer- und Buchhaltungspflichten (10 Jahre Aufbewahrung von Rechnungen) - <em>rechtliche Verpflichtung</em>, Art. 6 Abs. 1 lit. c DSGVO.</li>
       </ul>
 
       <h2>3. Empfänger der Daten</h2>
       <p>Wir nutzen folgende Auftragsverarbeiter mit DSGVO-konformen Verarbeitungsverträgen:</p>
       <ul>
-        <li><strong>Stripe Payments Europe Ltd</strong> — Zahlungsabwicklung</li>
-        <li><strong>Resend, Inc.</strong> — Versand transaktionaler E-Mails</li>
-        <li><strong>Neon, Inc.</strong> — Datenbank-Hosting (EU-Region)</li>
-        <li><strong>Netlify, Inc.</strong> — Website-Hosting</li>
+        <li><strong>Stripe Payments Europe Ltd</strong> - Zahlungsabwicklung</li>
+        <li><strong>Resend, Inc.</strong> - Versand transaktionaler E-Mails</li>
+        <li><strong>Neon, Inc.</strong> - Datenbank-Hosting (EU-Region)</li>
+        <li><strong>Netlify, Inc.</strong> - Website-Hosting</li>
       </ul>
       <p>Wir verkaufen Ihre Daten nicht und geben sie nicht zu Marketingzwecken weiter.</p>
 
@@ -49,7 +49,7 @@ export default function PrivacyDE() {
 
       <h2>5. Ihre Rechte nach DSGVO</h2>
       <ul>
-        <li><strong>Auskunftsrecht</strong> — Kopie der über Sie gespeicherten Daten.</li>
+        <li><strong>Auskunftsrecht</strong> - Kopie der über Sie gespeicherten Daten.</li>
         <li><strong>Recht auf Berichtigung</strong> unrichtiger Daten.</li>
         <li><strong>Recht auf Löschung</strong> (vorbehaltlich der oben genannten gesetzlichen Aufbewahrungsfristen).</li>
         <li><strong>Recht auf Einschränkung oder Widerspruch</strong> der Verarbeitung.</li>
@@ -61,9 +61,9 @@ export default function PrivacyDE() {
       <h2>6. Cookies</h2>
       <p>Wir setzen ausschließlich technisch notwendige Cookies:</p>
       <ul>
-        <li><strong>Spracheinstellung</strong> — speichert die gewählte Sprache (gesetzt durch next-intl).</li>
-        <li><strong>Stripe-Checkout-Sitzung</strong> — wird ausschließlich während des Bezahlvorgangs von checkout.stripe.com gesetzt.</li>
-        <li><strong>Admin-Authentifizierung</strong> — nur für berechtigte Admin-Nutzer.</li>
+        <li><strong>Spracheinstellung</strong> - speichert die gewählte Sprache (gesetzt durch next-intl).</li>
+        <li><strong>Stripe-Checkout-Sitzung</strong> - wird ausschließlich während des Bezahlvorgangs von checkout.stripe.com gesetzt.</li>
+        <li><strong>Admin-Authentifizierung</strong> - nur für berechtigte Admin-Nutzer.</li>
       </ul>
       <p>Wir verwenden keine Tracking-, Analyse- oder Werbe-Cookies. Für technisch notwendige Cookies ist nach DSGVO und ePrivacy-Richtlinie keine vorherige Einwilligung erforderlich.</p>
 

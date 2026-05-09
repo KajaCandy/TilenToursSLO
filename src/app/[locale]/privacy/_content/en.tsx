@@ -25,18 +25,18 @@ export default function PrivacyEN() {
 
       <h2>2. Why we collect it (legal basis)</h2>
       <ul>
-        <li>To prepare and deliver the tour you booked — <em>performance of contract</em>, GDPR Art. 6(1)(b).</li>
-        <li>To send booking confirmation and pre-tour information by email — <em>performance of contract</em>.</li>
-        <li>To comply with Slovenian tax and accounting law, which requires retention of invoice records for 10 years — <em>legal obligation</em>, GDPR Art. 6(1)(c).</li>
+        <li>To prepare and deliver the tour you booked - <em>performance of contract</em>, GDPR Art. 6(1)(b).</li>
+        <li>To send booking confirmation and pre-tour information by email - <em>performance of contract</em>.</li>
+        <li>To comply with Slovenian tax and accounting law, which requires retention of invoice records for 10 years - <em>legal obligation</em>, GDPR Art. 6(1)(c).</li>
       </ul>
 
       <h2>3. Who we share data with</h2>
       <p>We use the following processors, all bound by EU-compatible Data Processing Agreements:</p>
       <ul>
-        <li><strong>Stripe Payments Europe Ltd</strong> — payment processing</li>
-        <li><strong>Resend, Inc.</strong> — transactional email delivery</li>
-        <li><strong>Neon, Inc.</strong> — database hosting (EU region)</li>
-        <li><strong>Netlify, Inc.</strong> — website hosting</li>
+        <li><strong>Stripe Payments Europe Ltd</strong> - payment processing</li>
+        <li><strong>Resend, Inc.</strong> - transactional email delivery</li>
+        <li><strong>Neon, Inc.</strong> - database hosting (EU region)</li>
+        <li><strong>Netlify, Inc.</strong> - website hosting</li>
       </ul>
       <p>We never sell your data and we never share it with anyone for marketing purposes.</p>
 
@@ -49,11 +49,11 @@ export default function PrivacyEN() {
 
       <h2>5. Your rights under GDPR</h2>
       <ul>
-        <li><strong>Right of access</strong> — request a copy of the data we hold about you.</li>
-        <li><strong>Right of rectification</strong> — correct inaccurate data.</li>
-        <li><strong>Right of erasure</strong> — delete data we hold about you (subject to legal retention obligations above).</li>
+        <li><strong>Right of access</strong> - request a copy of the data we hold about you.</li>
+        <li><strong>Right of rectification</strong> - correct inaccurate data.</li>
+        <li><strong>Right of erasure</strong> - delete data we hold about you (subject to legal retention obligations above).</li>
         <li><strong>Right to restrict or object</strong> to processing.</li>
-        <li><strong>Right of data portability</strong> — receive your data in a structured, machine-readable format.</li>
+        <li><strong>Right of data portability</strong> - receive your data in a structured, machine-readable format.</li>
         <li><strong>Right to lodge a complaint</strong> with the Slovenian Information Commissioner (<a href="https://www.ip-rs.si" target="_blank" rel="noopener noreferrer">Informacijski pooblaščenec</a>).</li>
       </ul>
       <p>To exercise any of these rights, email <a href="mailto:info@tilen-tours.com">info@tilen-tours.com</a>. We respond within 30 days.</p>
@@ -61,9 +61,9 @@ export default function PrivacyEN() {
       <h2>6. Cookies</h2>
       <p>We use only strictly necessary cookies:</p>
       <ul>
-        <li><strong>Locale preference</strong> — remembers your chosen language (set by next-intl).</li>
-        <li><strong>Stripe checkout session</strong> — set by checkout.stripe.com only during the payment flow.</li>
-        <li><strong>Admin authentication</strong> — used only for authorised admin users.</li>
+        <li><strong>Locale preference</strong> - remembers your chosen language (set by next-intl).</li>
+        <li><strong>Stripe checkout session</strong> - set by checkout.stripe.com only during the payment flow.</li>
+        <li><strong>Admin authentication</strong> - used only for authorised admin users.</li>
       </ul>
       <p>
         We do not use any tracking, analytics or advertising cookies. Under GDPR and the ePrivacy Directive,

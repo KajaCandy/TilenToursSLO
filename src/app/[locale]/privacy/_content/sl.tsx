@@ -25,18 +25,18 @@ export default function PrivacySL() {
 
       <h2>2. Zakaj jih zbiramo (pravna podlaga)</h2>
       <ul>
-        <li>Za pripravo in izvedbo rezerviranega izleta — <em>izvajanje pogodbe</em>, 6. člen, prvi odstavek, točka (b) Splošne uredbe o varstvu podatkov (GDPR).</li>
-        <li>Za pošiljanje potrdila o rezervaciji in informacij pred izletom po e-pošti — <em>izvajanje pogodbe</em>.</li>
-        <li>Za izpolnjevanje davčnih in računovodskih obveznosti, ki zahtevajo hrambo računov 10 let — <em>zakonska obveznost</em>, 6. člen, prvi odstavek, točka (c) GDPR.</li>
+        <li>Za pripravo in izvedbo rezerviranega izleta - <em>izvajanje pogodbe</em>, 6. člen, prvi odstavek, točka (b) Splošne uredbe o varstvu podatkov (GDPR).</li>
+        <li>Za pošiljanje potrdila o rezervaciji in informacij pred izletom po e-pošti - <em>izvajanje pogodbe</em>.</li>
+        <li>Za izpolnjevanje davčnih in računovodskih obveznosti, ki zahtevajo hrambo računov 10 let - <em>zakonska obveznost</em>, 6. člen, prvi odstavek, točka (c) GDPR.</li>
       </ul>
 
       <h2>3. Komu posredujemo podatke</h2>
       <p>Uporabljamo naslednje obdelovalce, ki so vezani s pogodbami o obdelavi osebnih podatkov, skladnimi s pravom EU:</p>
       <ul>
-        <li><strong>Stripe Payments Europe Ltd</strong> — obdelava plačil</li>
-        <li><strong>Resend, Inc.</strong> — pošiljanje transakcijskih e-poštnih sporočil</li>
-        <li><strong>Neon, Inc.</strong> — gostovanje baze podatkov (regija EU)</li>
-        <li><strong>Netlify, Inc.</strong> — gostovanje spletnega mesta</li>
+        <li><strong>Stripe Payments Europe Ltd</strong> - obdelava plačil</li>
+        <li><strong>Resend, Inc.</strong> - pošiljanje transakcijskih e-poštnih sporočil</li>
+        <li><strong>Neon, Inc.</strong> - gostovanje baze podatkov (regija EU)</li>
+        <li><strong>Netlify, Inc.</strong> - gostovanje spletnega mesta</li>
       </ul>
       <p>Vaših podatkov ne prodajamo in jih ne posredujemo nikomur za namene trženja.</p>
 
@@ -49,11 +49,11 @@ export default function PrivacySL() {
 
       <h2>5. Vaše pravice po GDPR</h2>
       <ul>
-        <li><strong>Pravica do dostopa</strong> — zahtevate kopijo podatkov, ki jih hranimo o vas.</li>
-        <li><strong>Pravica do popravka</strong> — popravek netočnih podatkov.</li>
-        <li><strong>Pravica do izbrisa</strong> — izbris podatkov, ki jih hranimo o vas (ob upoštevanju zgornjih zakonsko predpisanih rokov hrambe).</li>
+        <li><strong>Pravica do dostopa</strong> - zahtevate kopijo podatkov, ki jih hranimo o vas.</li>
+        <li><strong>Pravica do popravka</strong> - popravek netočnih podatkov.</li>
+        <li><strong>Pravica do izbrisa</strong> - izbris podatkov, ki jih hranimo o vas (ob upoštevanju zgornjih zakonsko predpisanih rokov hrambe).</li>
         <li><strong>Pravica do omejitve ali ugovora</strong> obdelavi.</li>
-        <li><strong>Pravica do prenosljivosti podatkov</strong> — prejmete svoje podatke v strukturirani in strojno berljivi obliki.</li>
+        <li><strong>Pravica do prenosljivosti podatkov</strong> - prejmete svoje podatke v strukturirani in strojno berljivi obliki.</li>
         <li><strong>Pravica do pritožbe</strong> pri Informacijskem pooblaščencu RS (<a href="https://www.ip-rs.si" target="_blank" rel="noopener noreferrer">www.ip-rs.si</a>).</li>
       </ul>
       <p>Za uveljavljanje katere koli pravice nam pišite na <a href="mailto:info@tilen-tours.com">info@tilen-tours.com</a>. Odgovorimo v 30 dneh.</p>
@@ -61,9 +61,9 @@ export default function PrivacySL() {
       <h2>6. Piškotki</h2>
       <p>Uporabljamo izključno nujno potrebne piškotke:</p>
       <ul>
-        <li><strong>Jezikovna nastavitev</strong> — zapomni si izbrani jezik (nastavi next-intl).</li>
-        <li><strong>Stripe seja za plačilo</strong> — nastavi checkout.stripe.com samo med postopkom plačila.</li>
-        <li><strong>Avtentikacija skrbnika</strong> — uporabljena le pri pooblaščenih skrbniških uporabnikih.</li>
+        <li><strong>Jezikovna nastavitev</strong> - zapomni si izbrani jezik (nastavi next-intl).</li>
+        <li><strong>Stripe seja za plačilo</strong> - nastavi checkout.stripe.com samo med postopkom plačila.</li>
+        <li><strong>Avtentikacija skrbnika</strong> - uporabljena le pri pooblaščenih skrbniških uporabnikih.</li>
       </ul>
       <p>
         Ne uporabljamo piškotkov za sledenje, analitiko ali oglaševanje. V skladu z GDPR in direktivo o e-zasebnosti

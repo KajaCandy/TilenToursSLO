@@ -175,6 +175,20 @@
     "terms": "Pogoji rezervacije",
     "business": "Tilen Godeša s.p. · Unec 117, 1381 Rakek · DDV SI34826696"
   },
+  "vehicle": {
+    "title": "Vaše vozilo",
+    "subtitle": "Po Sloveniji vas bo vozil Tilenov DS7 Crossback - prestižni francoski SUV s tihimi usnjenimi sedeži, klimatsko napravo in panoramskimi okni za poglede v dolino Soče.",
+    "feat1Title": "Vrhunski SUV",
+    "feat1Desc": "Mirna in udobna vožnja na daljših razdaljah med gorami in obalo.",
+    "feat2Title": "Veliko prostora",
+    "feat2Desc": "Udobje za do 4 goste in dovolj prostora za prtljago.",
+    "feat3Title": "Klimatska naprava",
+    "feat3Desc": "Hladno poleti, toplo pozimi - pot je del doživetja.",
+    "altExterior": "DS7 SUV ob reki Soči",
+    "altSide": "DS7 SUV od strani ob Soči",
+    "altInterior": "Notranjost DS7 SUV-ja",
+    "altSeats": "Usnjeni sedeži DS7 SUV-ja"
+  },
   "admin": {
     "login": "Prijava",
     "password": "Geslo",
@@ -217,7 +231,7 @@
   },
   "contact": {
     "title": "Vprašajte Tilna za več informacij",
-    "subtitle": "Drugi datumi, prehranske posebnosti, vprašanja o skupini — Tilen vam osebno odgovori, običajno v nekaj urah.",
+    "subtitle": "Drugi datumi, prehranske posebnosti, vprašanja o skupini - Tilen vam osebno odgovori, običajno v nekaj urah.",
     "whatsapp": "Sporočilo prek WhatsAppa",
     "email": "Pošlji e-pošto"
   },

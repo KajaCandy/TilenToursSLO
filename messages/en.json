@@ -175,6 +175,20 @@
     "terms": "Terms & Conditions",
     "business": "Tilen Godeša s.p. · Unec 117, 1381 Rakek · VAT SI34826696"
   },
+  "vehicle": {
+    "title": "Your Ride",
+    "subtitle": "You'll travel in Tilen's DS7 Crossback - a premium French SUV with quiet leather interiors, climate control, and panoramic windows for the Soča valley views.",
+    "feat1Title": "Premium SUV",
+    "feat1Desc": "Smooth, quiet ride for the long drives between the mountains and the coast.",
+    "feat2Title": "Plenty of space",
+    "feat2Desc": "Comfortable seating for up to 4 guests with full-size luggage room.",
+    "feat3Title": "Climate-controlled",
+    "feat3Desc": "Cool in summer, warm in winter - the journey is part of the experience.",
+    "altExterior": "DS7 SUV at the Soča river",
+    "altSide": "DS7 SUV side view by the Soča",
+    "altInterior": "DS7 SUV interior dashboard",
+    "altSeats": "DS7 SUV leather seats"
+  },
   "admin": {
     "login": "Admin Login",
     "password": "Password",
@@ -217,7 +231,7 @@
   },
   "contact": {
     "title": "Contact Tilen for more info",
-    "subtitle": "Custom dates, dietary needs, group questions — Tilen will reply personally, usually within a few hours.",
+    "subtitle": "Custom dates, dietary needs, group questions - Tilen will reply personally, usually within a few hours.",
     "whatsapp": "Message on WhatsApp",
     "email": "Send an email"
   },

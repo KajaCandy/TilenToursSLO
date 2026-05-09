@@ -127,6 +127,47 @@ export default function HomePage() {
       {/* Reviews */}
       <Reviews />
 
+      {/* Vehicle */}
+      <section className="py-24 px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <h2 className="font-display text-4xl text-forest-900 mb-4">{t("vehicle.title")}</h2>
+            <p className="text-forest-600 max-w-2xl mx-auto leading-relaxed">{t("vehicle.subtitle")}</p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-[1.6fr_1fr] gap-4 mb-10 lg:h-[520px]">
+            <img
+              src="/media/car-soca.jpg"
+              alt={t("vehicle.altExterior")}
+              className="rounded-2xl object-cover w-full h-64 sm:h-80 lg:h-full shadow-lg"
+              loading="lazy"
+            />
+            <div className="grid grid-cols-2 lg:grid-cols-1 lg:grid-rows-2 gap-4 h-full min-h-0">
+              <img
+                src="/media/car-side.jpg"
+                alt={t("vehicle.altSide")}
+                className="rounded-2xl object-cover w-full h-40 sm:h-52 lg:h-full min-h-0 shadow-md"
+                style={{ objectPosition: "center 30%" }}
+                loading="lazy"
+              />
+              <img
+                src="/media/car-interior-seats.jpg"
+                alt={t("vehicle.altSeats")}
+                className="rounded-2xl object-cover w-full h-40 sm:h-52 lg:h-full min-h-0 shadow-md"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {(["feat1", "feat2", "feat3"] as const).map((k) => (
+              <div key={k} className="bg-beige-50 rounded-xl p-6 border border-beige-200">
+                <p className="font-semibold text-forest-900 mb-2">{t(`vehicle.${k}Title`)}</p>
+                <p className="text-forest-600 text-sm leading-relaxed">{t(`vehicle.${k}Desc`)}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Pricing */}
       <section id="pricing" className="py-24 px-4 bg-forest-950">
         <div className="max-w-4xl mx-auto text-center">
