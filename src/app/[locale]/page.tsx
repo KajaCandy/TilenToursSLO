@@ -236,7 +236,18 @@ export default function HomePage() {
               </svg>
               +386 40 842 594
             </a>
-            <p className="text-beige-600 text-xs mt-2">© {new Date().getFullYear()} {t("footer.rights")}</p>
+            <div className="flex flex-col sm:items-end gap-2 mt-3 pt-3 border-t border-beige-900/30 text-xs">
+              <div className="flex gap-4">
+                <Link href={`/${locale}/privacy`} className="text-beige-300 hover:text-beige-100 transition-colors">
+                  {t("footer.privacy")}
+                </Link>
+                <Link href={`/${locale}/terms`} className="text-beige-300 hover:text-beige-100 transition-colors">
+                  {t("footer.terms")}
+                </Link>
+              </div>
+              <p className="text-beige-500">{t("footer.business")}</p>
+              <p className="text-beige-600">© {new Date().getFullYear()} {t("footer.rights")}</p>
+            </div>
           </div>
         </div>
       </footer>

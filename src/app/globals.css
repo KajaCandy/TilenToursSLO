@@ -13,3 +13,27 @@
     @apply font-display;
   }
 }
+
+@layer components {
+  .prose-legal h2 {
+    @apply font-display text-xl text-forest-900 mt-8 mb-3;
+  }
+  .prose-legal p {
+    @apply text-forest-700 leading-relaxed mb-4;
+  }
+  .prose-legal ul {
+    @apply list-disc pl-6 mb-4 text-forest-700 leading-relaxed space-y-1;
+  }
+  .prose-legal li {
+    @apply marker:text-forest-300;
+  }
+  .prose-legal a {
+    @apply text-forest-700 underline decoration-forest-300 underline-offset-2 hover:decoration-forest-700 transition-colors;
+  }
+  .prose-legal strong {
+    @apply text-forest-900 font-semibold;
+  }
+  .prose-legal em {
+    @apply text-forest-500 not-italic;
+  }
+}

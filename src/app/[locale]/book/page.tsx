@@ -366,6 +366,15 @@ export default function BookPage() {
           </div>
         </form>
       </div>
+      <footer className="mt-16 border-t border-beige-200 bg-white">
+        <div className="max-w-5xl mx-auto px-4 py-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-xs text-forest-500">
+          <p>{t("footer.business")}</p>
+          <div className="flex gap-4">
+            <Link href={`/${locale}/privacy`} className="hover:text-forest-700 transition-colors">{t("footer.privacy")}</Link>
+            <Link href={`/${locale}/terms`} className="hover:text-forest-700 transition-colors">{t("footer.terms")}</Link>
+          </div>
+        </div>
+      </footer>
       <WhatsAppButton />
     </div>
   );

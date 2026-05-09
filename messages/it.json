@@ -170,7 +170,10 @@
     "tagline": "Scopri la Slovenia in un giorno.",
     "contact": "Contatto",
     "language": "Lingua",
-    "rights": "Tutti i diritti riservati."
+    "rights": "Tutti i diritti riservati.",
+    "privacy": "Privacy",
+    "terms": "Condizioni",
+    "business": "Tilen Godeša s.p. · Unec 117, 1381 Rakek · P. IVA SI34826696"
   },
   "admin": {
     "login": "Accesso Admin",
@@ -217,5 +220,10 @@
     "subtitle": "Date personalizzate, esigenze alimentari, domande sul gruppo — Tilen risponde personalmente, di solito in poche ore.",
     "whatsapp": "Scrivi su WhatsApp",
     "email": "Invia un'email"
+  },
+  "cookies": {
+    "body": "Utilizziamo solo cookie essenziali per il funzionamento del sito. Nessun tracciamento, nessuna analisi.",
+    "learnMore": "Scopri di più",
+    "dismiss": "Ho capito"
   }
 }

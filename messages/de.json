@@ -170,7 +170,10 @@
     "tagline": "Entdecken Sie Slowenien an einem Tag.",
     "contact": "Kontakt",
     "language": "Sprache",
-    "rights": "Alle Rechte vorbehalten."
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "Bedingungen",
+    "business": "Tilen Godeša s.p. · Unec 117, 1381 Rakek · USt-IdNr. SI34826696"
   },
   "admin": {
     "login": "Admin-Anmeldung",
@@ -217,5 +220,10 @@
     "subtitle": "Andere Termine, Ernährungswünsche, Gruppenfragen — Tilen antwortet persönlich, meist innerhalb weniger Stunden.",
     "whatsapp": "WhatsApp-Nachricht",
     "email": "E-Mail senden"
+  },
+  "cookies": {
+    "body": "Wir verwenden nur technisch notwendige Cookies. Kein Tracking, keine Analyse.",
+    "learnMore": "Mehr erfahren",
+    "dismiss": "Verstanden"
   }
 }
