@@ -46,7 +46,7 @@ export async function generateMetadata({
       description: t("description"),
       url: `${SITE_URL}/${locale}`,
       locale,
-      images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Tilen Tours DS7 SUV at the Soča river" }],
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Tilen Tours Slovenia - Tolmin Gorge, Soča Viewpoints, Adriatic Coast" }],
     },
     twitter: {
       card: "summary_large_image",
