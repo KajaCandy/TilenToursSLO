@@ -152,7 +152,8 @@
     "musicSurprise": "Überrasche mich",
     "musicSilence": "Bitte keine Musik",
     "vegetarianTitle": "Vegetarische Snacks",
-    "vegetarianHelp": "Wie viele in Ihrer Gruppe möchten vegetarisch?"
+    "vegetarianHelp": "Wie viele in Ihrer Gruppe möchten vegetarisch?",
+    "phoneInvalid": "Bitte geben Sie eine gültige Telefonnummer ein."
   },
   "success": {
     "title": "Sie sind gebucht!",

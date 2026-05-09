@@ -152,7 +152,8 @@
     "musicSurprise": "Presenetite me",
     "musicSilence": "Brez glasbe, prosim",
     "vegetarianTitle": "Vegetarijanski prigrizki",
-    "vegetarianHelp": "Koliko oseb v skupini želi vegetarijanski obrok?"
+    "vegetarianHelp": "Koliko oseb v skupini želi vegetarijanski obrok?",
+    "phoneInvalid": "Vnesite veljavno telefonsko številko."
   },
   "success": {
     "title": "Rezervacija potrjena!",

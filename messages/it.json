@@ -152,7 +152,8 @@
     "musicSurprise": "Sorprendimi",
     "musicSilence": "Niente musica, per favore",
     "vegetarianTitle": "Spuntini vegetariani",
-    "vegetarianHelp": "Quante persone del gruppo preferiscono vegetariano?"
+    "vegetarianHelp": "Quante persone del gruppo preferiscono vegetariano?",
+    "phoneInvalid": "Inserisci un numero di telefono valido."
   },
   "success": {
     "title": "Sei prenotato!",

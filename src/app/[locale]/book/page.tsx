@@ -4,6 +4,8 @@ import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
+import "react-phone-number-input/style.css";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -46,7 +48,8 @@ export default function BookPage() {
   const [notes, setNotes] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
+  const [phone, setPhone] = useState<string | undefined>(undefined);
+  const [phoneError, setPhoneError] = useState(false);
   const [availability, setAvailability] = useState<Availability | null>(null);
   const [loadingAv, setLoadingAv] = useState(true);
   const [submitting, setSubmitting] = useState(false);
@@ -84,6 +87,11 @@ export default function BookPage() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!selectedDate || !name || !email || !phone) return;
+    if (!isValidPhoneNumber(phone)) {
+      setPhoneError(true);
+      return;
+    }
+    setPhoneError(false);
     setSubmitting(true);
     try {
       const res = await fetch("/api/checkout", {
@@ -304,16 +312,50 @@ export default function BookPage() {
               <h2 className="font-semibold text-forest-900 mb-4">{t("booking.yourDetails")}</h2>
               <div className="space-y-4">
                 <div>
-                  <label className="block text-sm text-forest-600 mb-1">{t("booking.name")}</label>
-                  <input required value={name} onChange={(e) => setName(e.target.value)} className="w-full border border-beige-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-forest-500" />
+                  <label htmlFor="customer-name" className="block text-sm text-forest-600 mb-1">{t("booking.name")}</label>
+                  <input
+                    id="customer-name"
+                    name="name"
+                    required
+                    autoComplete="name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    className="w-full border border-beige-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-forest-500"
+                  />
                 </div>
                 <div>
-                  <label className="block text-sm text-forest-600 mb-1">{t("booking.email")}</label>
-                  <input required type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full border border-beige-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-forest-500" />
+                  <label htmlFor="customer-email" className="block text-sm text-forest-600 mb-1">{t("booking.email")}</label>
+                  <input
+                    id="customer-email"
+                    name="email"
+                    required
+                    type="email"
+                    autoComplete="email"
+                    inputMode="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    className="w-full border border-beige-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-forest-500"
+                  />
                 </div>
                 <div>
-                  <label className="block text-sm text-forest-600 mb-1">{t("booking.phone")}</label>
-                  <input required type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} className="w-full border border-beige-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-forest-500" />
+                  <label htmlFor="customer-phone" className="block text-sm text-forest-600 mb-1">{t("booking.phone")}</label>
+                  <PhoneInput
+                    id="customer-phone"
+                    international
+                    defaultCountry="SI"
+                    value={phone}
+                    onChange={(v) => { setPhone(v); if (phoneError) setPhoneError(false); }}
+                    numberInputProps={{
+                      name: "tel",
+                      autoComplete: "tel",
+                      required: true,
+                      className: "w-full bg-transparent text-sm focus:outline-none",
+                    }}
+                    className={`tt-phone-input flex items-center gap-2 border ${phoneError ? "border-red-400" : "border-beige-300"} rounded-xl px-3 py-3 focus-within:border-forest-500`}
+                  />
+                  {phoneError && (
+                    <p className="text-xs text-red-500 mt-1">{t("booking.phoneInvalid")}</p>
+                  )}
                 </div>
               </div>
               <p className="text-xs text-forest-400 mt-4">{t("booking.privacyNote")}</p>

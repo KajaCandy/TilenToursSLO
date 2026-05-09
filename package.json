@@ -13,13 +13,14 @@
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
+    "jose": "^5.9.6",
     "next": "14.2.29",
     "next-intl": "^3.26.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-phone-number-input": "^3.4.16",
     "resend": "^4.0.1",
-    "stripe": "^17.4.0",
-    "jose": "^5.9.6"
+    "stripe": "^17.4.0"
   },
   "devDependencies": {
     "@types/node": "^20",
