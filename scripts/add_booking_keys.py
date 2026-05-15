@@ -6,25 +6,25 @@ MESSAGES_DIR = Path(r"E:/Projects/Tilen Tours Slovenia/messages")
 
 NEW_KEYS = {
     "en": {
-        "advanceNotice": "Bookings must be made at least 2 days in advance.",
+        "advanceNotice": "Bookings must be made at least 4 days in advance.",
         "vegetarianLabel": "Make it vegetarian",
         "notesTitle": "Special requests (optional)",
         "notesPlaceholder": "Allergies, food preferences, or anything else we should know.",
     },
     "sl": {
-        "advanceNotice": "Rezervacije morajo biti opravljene vsaj 2 dni vnaprej.",
+        "advanceNotice": "Rezervacije morajo biti opravljene vsaj 4 dni vnaprej.",
         "vegetarianLabel": "Naredite vegetarijansko",
         "notesTitle": "Posebne želje (izbirno)",
         "notesPlaceholder": "Alergije, prehranske preference ali kar koli drugega, kar bi morali vedeti.",
     },
     "it": {
-        "advanceNotice": "Le prenotazioni devono essere effettuate almeno 2 giorni in anticipo.",
+        "advanceNotice": "Le prenotazioni devono essere effettuate almeno 4 giorni in anticipo.",
         "vegetarianLabel": "Rendilo vegetariano",
         "notesTitle": "Richieste speciali (opzionale)",
         "notesPlaceholder": "Allergie, preferenze alimentari o qualsiasi altra cosa che dovremmo sapere.",
     },
     "de": {
-        "advanceNotice": "Buchungen müssen mindestens 2 Tage im Voraus erfolgen.",
+        "advanceNotice": "Buchungen müssen mindestens 4 Tage im Voraus erfolgen.",
         "vegetarianLabel": "Vegetarisch machen",
         "notesTitle": "Besondere Wünsche (optional)",
         "notesPlaceholder": "Allergien, Essenspräferenzen oder andere Anmerkungen.",

@@ -26,7 +26,7 @@ export default function TermsEN() {
       <h2>3. Booking and payment</h2>
       <p>
         Bookings are made through tilen-tours.com. Payment is taken in full at the time of booking via Stripe.
-        Bookings must be made at least 2 days in advance.
+        Bookings must be made at least 4 days in advance.
       </p>
 
       <h2>4. Cancellations and refunds</h2>

@@ -141,7 +141,7 @@
     "noAvailability": "Derzeit keine verfügbaren Termine. Bitte schauen Sie bald wieder vorbei.",
     "minPeople": "Mindestens 2 Personen erforderlich.",
     "privacyNote": "Ihre Daten werden nur für diese Buchung verwendet.",
-    "advanceNotice": "Buchungen müssen mindestens 2 Tage im Voraus erfolgen.",
+    "advanceNotice": "Buchungen müssen mindestens 4 Tage im Voraus erfolgen.",
     "notesTitle": "Besondere Wünsche (optional)",
     "notesPlaceholder": "Allergien, Essenspräferenzen oder andere Anmerkungen.",
     "musicTitle": "Wähle die Stimmung",
@@ -283,7 +283,7 @@
       },
       {
         "q": "Wie weit im Voraus muss ich buchen?",
-        "a": "Buchungen müssen mindestens 2 Tage im Voraus über tilen-tours.com erfolgen."
+        "a": "Buchungen müssen mindestens 4 Tage im Voraus über tilen-tours.com erfolgen."
       }
     ]
   }

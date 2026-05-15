@@ -16,7 +16,7 @@ FAQ = {
             {"q": "Is lunch included?", "a": "No. We stop at a local restaurant where guests order individually. The optional homemade snack at €10/person is separate."},
             {"q": "Can I bring a dog?", "a": "Yes, a dog transport kennel is provided free of charge. Please mention the dog at booking."},
             {"q": "What is the cancellation policy?", "a": "4 or more days before the tour: 100% refund. Less than 4 days before: 70% refund. If Tilen Tours has to cancel (e.g. severe weather, vehicle issue), you receive a full refund or can reschedule."},
-            {"q": "How far in advance must I book?", "a": "Bookings must be made at least 2 days in advance through tilen-tours.com."}
+            {"q": "How far in advance must I book?", "a": "Bookings must be made at least 4 days in advance through tilen-tours.com."}
         ]
     },
     "sl": {
@@ -30,7 +30,7 @@ FAQ = {
             {"q": "Je kosilo vključeno?", "a": "Ne. Ustavimo se v lokalni restavraciji, kjer vsak gost naroči po svoji izbiri. Domač prigrizek po 10 EUR/osebo je ločeno na voljo."},
             {"q": "Lahko pripeljem psa?", "a": "Da, na voljo je brezplačna pasja transportna kletka. Prosimo, da psa omenite ob rezervaciji."},
             {"q": "Kakšen je rok za odpoved?", "a": "Štiri dni ali več pred izletom: 100 % vračilo. Manj kot 4 dni pred izletom: 70 % vračilo. Če izlet odpove Tilen Tours (npr. neurje, okvara vozila), prejmete polno vračilo ali drug termin."},
-            {"q": "Koliko vnaprej moram rezervirati?", "a": "Rezervacije so možne najmanj 2 dni vnaprej prek tilen-tours.com."}
+            {"q": "Koliko vnaprej moram rezervirati?", "a": "Rezervacije so možne najmanj 4 dni vnaprej prek tilen-tours.com."}
         ]
     },
     "it": {
@@ -44,7 +44,7 @@ FAQ = {
             {"q": "Il pranzo è incluso?", "a": "No. Ci fermiamo in un ristorante locale dove ogni ospite ordina individualmente. Lo snack fatto in casa a 10 EUR/persona è opzionale e separato."},
             {"q": "Posso portare un cane?", "a": "Sì, un trasportino per cani è fornito gratuitamente. Si prega di indicare il cane al momento della prenotazione."},
             {"q": "Qual è la politica di cancellazione?", "a": "4 o più giorni prima del tour: rimborso del 100%. Meno di 4 giorni prima: rimborso del 70%. Se Tilen Tours deve cancellare (maltempo, problemi al veicolo), riceverai un rimborso completo o potrai riprogrammare."},
-            {"q": "Con quanto anticipo devo prenotare?", "a": "Le prenotazioni devono essere effettuate almeno 2 giorni prima tramite tilen-tours.com."}
+            {"q": "Con quanto anticipo devo prenotare?", "a": "Le prenotazioni devono essere effettuate almeno 4 giorni prima tramite tilen-tours.com."}
         ]
     },
     "de": {
@@ -58,7 +58,7 @@ FAQ = {
             {"q": "Ist Mittagessen inbegriffen?", "a": "Nein. Wir halten an einem lokalen Restaurant, wo jeder Gast individuell bestellt. Der optionale hausgemachte Snack zu 10 EUR/Person ist separat erhältlich."},
             {"q": "Darf ich einen Hund mitbringen?", "a": "Ja, eine Hundetransportbox wird kostenlos bereitgestellt. Bitte erwähnen Sie den Hund bei der Buchung."},
             {"q": "Wie sind die Stornierungsbedingungen?", "a": "4 oder mehr Tage vor der Tour: 100 % Rückerstattung. Weniger als 4 Tage davor: 70 % Rückerstattung. Wenn Tilen Tours absagen muss (z. B. Unwetter, Fahrzeugproblem), erhalten Sie eine vollständige Rückerstattung oder können umbuchen."},
-            {"q": "Wie weit im Voraus muss ich buchen?", "a": "Buchungen müssen mindestens 2 Tage im Voraus über tilen-tours.com erfolgen."}
+            {"q": "Wie weit im Voraus muss ich buchen?", "a": "Buchungen müssen mindestens 4 Tage im Voraus über tilen-tours.com erfolgen."}
         ]
     },
 }

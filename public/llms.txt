@@ -39,7 +39,7 @@ The tour combines three Slovenian regions in a single day: the central Slovenian
 - Online: https://tilen-tours.com/book (Stripe checkout, all major cards)
 - Email: info@tilen-tours.com
 - WhatsApp: +386 40 842 594
-- Bookings must be made at least 2 days in advance.
+- Bookings must be made at least 4 days in advance.
 
 ## Cancellation policy
 

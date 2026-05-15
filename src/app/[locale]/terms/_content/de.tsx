@@ -26,7 +26,7 @@ export default function TermsDE() {
       <h2>3. Buchung und Zahlung</h2>
       <p>
         Buchungen erfolgen über tilen-tours.com. Die Zahlung ist zum Buchungszeitpunkt vollständig fällig und erfolgt über Stripe.
-        Buchungen müssen mindestens 2 Tage im Voraus erfolgen.
+        Buchungen müssen mindestens 4 Tage im Voraus erfolgen.
       </p>
 
       <h2>4. Stornierung und Erstattung</h2>

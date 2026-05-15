@@ -141,7 +141,7 @@
     "noAvailability": "Nessuna data disponibile al momento. Ricontrolla presto.",
     "minPeople": "Minimo 2 persone richieste.",
     "privacyNote": "I tuoi dati vengono utilizzati solo per questa prenotazione.",
-    "advanceNotice": "Le prenotazioni devono essere effettuate almeno 2 giorni in anticipo.",
+    "advanceNotice": "Le prenotazioni devono essere effettuate almeno 4 giorni in anticipo.",
     "notesTitle": "Richieste speciali (opzionale)",
     "notesPlaceholder": "Allergie, preferenze alimentari o qualsiasi altra cosa che dovremmo sapere.",
     "musicTitle": "Scegli l'atmosfera",
@@ -283,7 +283,7 @@
       },
       {
         "q": "Con quanto anticipo devo prenotare?",
-        "a": "Le prenotazioni devono essere effettuate almeno 2 giorni prima tramite tilen-tours.com."
+        "a": "Le prenotazioni devono essere effettuate almeno 4 giorni prima tramite tilen-tours.com."
       }
     ]
   }

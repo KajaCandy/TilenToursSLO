@@ -35,7 +35,7 @@ export default function BookPage() {
   const { locale } = useParams<{ locale: string }>();
 
   const today = new Date();
-  const minBookable = new Date(today.getFullYear(), today.getMonth(), today.getDate() + 2);
+  const minBookable = new Date(today.getFullYear(), today.getMonth(), today.getDate() + 4);
   const [calYear, setCalYear] = useState(today.getFullYear());
   const [calMonth, setCalMonth] = useState(today.getMonth());
 

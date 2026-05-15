@@ -18,9 +18,9 @@ export async function POST(req: NextRequest) {
     : 0;
 
   const now = new Date();
-  const minBookable = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2);
+  const minBookable = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 4);
   if (new Date(date + "T12:00:00") < minBookable) {
-    return NextResponse.json({ error: "Bookings must be made at least 2 days in advance" }, { status: 400 });
+    return NextResponse.json({ error: "Bookings must be made at least 4 days in advance" }, { status: 400 });
   }
 
   const blocked = await prisma.blockedDate.findUnique({ where: { date } });

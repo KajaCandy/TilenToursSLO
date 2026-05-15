@@ -141,7 +141,7 @@
     "noAvailability": "Trenutno ni razpoložljivih datumov. Preverite kmalu.",
     "minPeople": "Potrebni so najmanj 2 osebi.",
     "privacyNote": "Vaši podatki se uporabljajo samo za to rezervacijo.",
-    "advanceNotice": "Rezervacije morajo biti opravljene vsaj 2 dni vnaprej.",
+    "advanceNotice": "Rezervacije morajo biti opravljene vsaj 4 dni vnaprej.",
     "notesTitle": "Posebne želje (izbirno)",
     "notesPlaceholder": "Alergije, prehranske preference ali kar koli drugega, kar bi morali vedeti.",
     "musicTitle": "Izberi vzdušje",
@@ -283,7 +283,7 @@
       },
       {
         "q": "Koliko vnaprej moram rezervirati?",
-        "a": "Rezervacije so možne najmanj 2 dni vnaprej prek tilen-tours.com."
+        "a": "Rezervacije so možne najmanj 4 dni vnaprej prek tilen-tours.com."
       }
     ]
   }

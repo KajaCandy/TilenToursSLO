@@ -26,7 +26,7 @@ export default function TermsIT() {
       <h2>3. Prenotazione e pagamento</h2>
       <p>
         Le prenotazioni si effettuano su tilen-tours.com. Il pagamento è dovuto interamente al momento della prenotazione tramite Stripe.
-        È necessario prenotare con almeno 2 giorni di anticipo.
+        È necessario prenotare con almeno 4 giorni di anticipo.
       </p>
 
       <h2>4. Cancellazioni e rimborsi</h2>

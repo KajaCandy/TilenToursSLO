@@ -26,7 +26,7 @@ export default function TermsSL() {
       <h2>3. Rezervacija in plačilo</h2>
       <p>
         Rezervacije potekajo prek tilen-tours.com. Plačilo se izvede v celoti ob rezervaciji prek storitve Stripe.
-        Rezervacijo je treba opraviti najmanj 2 dni pred izletom.
+        Rezervacijo je treba opraviti najmanj 4 dni pred izletom.
       </p>
 
       <h2>4. Odpoved in vračilo kupnine</h2>

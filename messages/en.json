@@ -141,7 +141,7 @@
     "noAvailability": "No available dates at the moment. Please check back soon.",
     "minPeople": "Minimum 2 people required.",
     "privacyNote": "Your details are used only for this booking and will not be shared.",
-    "advanceNotice": "Bookings must be made at least 2 days in advance.",
+    "advanceNotice": "Bookings must be made at least 4 days in advance.",
     "notesTitle": "Special requests (optional)",
     "notesPlaceholder": "Allergies, food preferences, or anything else we should know.",
     "musicTitle": "Pick the vibe",
@@ -283,7 +283,7 @@
       },
       {
         "q": "How far in advance must I book?",
-        "a": "Bookings must be made at least 2 days in advance through tilen-tours.com."
+        "a": "Bookings must be made at least 4 days in advance through tilen-tours.com."
       }
     ]
   }
