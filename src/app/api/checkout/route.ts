@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
 import { prisma } from "@/lib/db";
 
-const PRICE_PER_PERSON = 130_00;
+const PRICE_PER_PERSON = 149_00;
 const SNACK_PRICE = 10_00;
 
 export async function POST(req: NextRequest) {

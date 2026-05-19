@@ -15,7 +15,7 @@ export default function TermsSL() {
         <li>Celodnevni vodeni izlet po Sloveniji: Ljubljana → Soška dolina → jadranska obala → Ljubljana.</li>
         <li>Trajanje: približno 10 ur (07:00 - 17:15).</li>
         <li>Velikost skupine: 2 do 4 osebe.</li>
-        <li>Cena: 130 € na osebo. Neobvezni domači prigrizek: 10 € na osebo. Pasji boks vključen brezplačno.</li>
+        <li>Cena: 149 € na osebo. Neobvezni domači prigrizek: 10 € na osebo. Pasji boks vključen brezplačno.</li>
         <li>Jezika vodenja: slovenski, angleški.</li>
       </ul>
 

@@ -15,7 +15,7 @@ export default function TermsDE() {
         <li>Ganztägige geführte Tour durch Slowenien: Ljubljana → Soča-Tal → Adriaküste → Ljubljana.</li>
         <li>Dauer: ca. 10 Stunden (07:00 - 17:15).</li>
         <li>Gruppengröße: 2 bis 4 Personen.</li>
-        <li>Preis: 130 € pro Person. Optionaler hausgemachter Snack: 10 € pro Person. Hundetransportbox kostenlos enthalten.</li>
+        <li>Preis: 149 € pro Person. Optionaler hausgemachter Snack: 10 € pro Person. Hundetransportbox kostenlos enthalten.</li>
         <li>Sprachen: Slowenisch, Englisch.</li>
       </ul>
 

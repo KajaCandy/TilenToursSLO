@@ -50,7 +50,7 @@ export default function HomePage() {
     },
     "offers": {
       "@type": "Offer",
-      "price": "130",
+      "price": "149",
       "priceCurrency": "EUR",
       "availability": "https://schema.org/InStock",
       "url": `${SITE_URL}/${locale}/book`,
@@ -240,7 +240,7 @@ export default function HomePage() {
             {/* Price card */}
             <div className="bg-forest-900 rounded-2xl p-8 border border-forest-700">
               <div className="mb-6">
-                <span className="font-display text-6xl text-white">€130</span>
+                <span className="font-display text-6xl text-white">€149</span>
                 <span className="text-beige-400 ml-2">{t("pricing.perPerson")}</span>
               </div>
               <p className="text-beige-300 text-sm mb-6">{t("pricing.groupSize")}</p>

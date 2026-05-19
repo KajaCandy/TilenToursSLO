@@ -70,7 +70,7 @@ export default function BookPage() {
     }
   }, [numPeople, snackChoice, vegetarianCount]);
 
-  const basePrice = numPeople * 130;
+  const basePrice = numPeople * 149;
   const snackPrice = snackChoice ? numPeople * 10 : 0;
   const total = basePrice + snackPrice;
 

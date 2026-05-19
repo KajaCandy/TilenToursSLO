@@ -15,7 +15,7 @@ export default function TermsEN() {
         <li>Full-day guided tour of Slovenia: Ljubljana → Soča Valley → Adriatic coast → Ljubljana.</li>
         <li>Duration: approximately 10 hours (07:00 - 17:15).</li>
         <li>Group size: 2 to 4 people.</li>
-        <li>Price: €130 per person. Optional homemade snack: €10 per person. Dog kennel included free.</li>
+        <li>Price: €149 per person. Optional homemade snack: €10 per person. Dog kennel included free.</li>
         <li>Tour languages: Slovenian, English.</li>
       </ul>
 

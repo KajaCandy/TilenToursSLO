@@ -15,7 +15,7 @@ export default function TermsIT() {
         <li>Tour guidato di una giornata in Slovenia: Lubiana → Valle dell&apos;Isonzo → costa adriatica → Lubiana.</li>
         <li>Durata: circa 10 ore (07:00 - 17:15).</li>
         <li>Dimensione del gruppo: da 2 a 4 persone.</li>
-        <li>Prezzo: 130 € a persona. Spuntino fatto in casa opzionale: 10 € a persona. Trasportino per cani incluso gratuitamente.</li>
+        <li>Prezzo: 149 € a persona. Spuntino fatto in casa opzionale: 10 € a persona. Trasportino per cani incluso gratuitamente.</li>
         <li>Lingue: sloveno, inglese.</li>
       </ul>
 
